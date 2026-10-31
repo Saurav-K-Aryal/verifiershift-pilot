@@ -1,0 +1,5754 @@
+[
+  {
+    "packet_id": "590f0884bc0d515052bf56d3447471dfae938fb1c997b9117537ccea27e38162",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "4a7123b9d2eaee3c",
+    "world_ids": [
+      "db5e1f8ed099d8407388"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-374116254",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 39107,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-374116254",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 39107,
+            "payload": [
+              {
+                "capacity": 9,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "c4a99eb19f85e7a18a6e9453884e497d1528300c9da1abea46d270b7f63d181a"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-374116254",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-148734159",
+                  "room_id": "resource-374116254",
+                  "start": 821,
+                  "end": 887,
+                  "seats": 4
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-374116254",
+                  "start": 826,
+                  "end": 897,
+                  "seats": 3
+                },
+                {
+                  "task_id": "task-148734159",
+                  "room_id": "resource-374116254",
+                  "start": 821,
+                  "end": 887,
+                  "seats": 4
+                }
+              ]
+            },
+            "capture_sha256": "f62db6dd60c652095eefc57fe1e3ec31e64cefb7e3047a4238714d091cc117ac"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "eade2ba3403c0673c222f8b632a6016210acc3bb401f3ba8499ac23205af02c9",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "c6e1ac8476bb46b0",
+    "world_ids": [
+      "a4a4d1258d5bde707238"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-152046209",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 26869,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-152046209",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 26869,
+            "payload": [
+              {
+                "capacity": 4,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "bfd64c2fa90992a2d0c970dcee1c080fc14c3796036c0575dae5645207333b1c"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-152046209",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-562101198",
+                  "room_id": "resource-152046209",
+                  "start": 811,
+                  "end": 882,
+                  "seats": 2
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-152046209",
+                  "start": 887,
+                  "end": 917,
+                  "seats": 4
+                },
+                {
+                  "task_id": "task-562101198",
+                  "room_id": "resource-152046209",
+                  "start": 811,
+                  "end": 882,
+                  "seats": 2
+                }
+              ]
+            },
+            "capture_sha256": "afb1ad81363bfa15cc77314caf1c1a3140a2ea33d95076f5ec75a491c0ffbfb7"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "03f6e2738756fa8a78487f85cfae779a6260875b538f2387345ed6dafb9990a5",
+    "channel": "invalid_probe",
+    "family": "booking",
+    "fault": "missing_policy",
+    "pair_id": "f92d89e575d795fd",
+    "world_ids": [
+      "71c025e62238fd8e7232"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-541424455",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 88622,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-541424455",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-541424455",
+                  "start": 552,
+                  "end": 625,
+                  "seats": 4
+                },
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "1353fba4774f64ad4efdd933bb49437109c0026fed1d0b3ba3134f8d101c8399"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "0517bf6a950d994b20955166ab2b46dab54c51de5af6c4d21dbab7b085ee1a28",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "57fd799309c4387b",
+    "world_ids": [
+      "fd7f4fb8afaee9b05a52"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-394939799",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 29746,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-394939799",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 29746,
+            "payload": [
+              {
+                "minimum_tier": 1,
+                "required_queue": "queue-86-alternate",
+                "sla_minutes": 32
+              }
+            ],
+            "capture_sha256": "039e0a54637213723446009536352491c989f6d4a5f667fec1646c6aa857e426"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-394939799",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-749796648",
+                  "customer_tier": 1,
+                  "opened_minute": 216
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-749796648",
+                  "queue": "queue-86",
+                  "deadline_minute": 238
+                }
+              ]
+            },
+            "capture_sha256": "73ac8e37c1151e93e81429fef1729b19430d7130c1b98a87068b71573196d4be"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "06d4b971c1a2b777db810a7f8bbf0fe5a424129e787163d46ae8a21a2c48480b",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "cdcb5dc2b6f36b63",
+    "world_ids": [
+      "73da0ec6222be87cb2e1"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-969740429",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 59689,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-969740429",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 59689,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "9db4849f2ab408f9e0d85a18af24e0d5efd4aa1081b33857b880f8006c37e849"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-969740429",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-587136484",
+                  "sku": "sku-0",
+                  "packages": 2
+                },
+                {
+                  "task_id": "task-587136484",
+                  "sku": "sku-1",
+                  "packages": 4
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 28,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 36,
+                  "after_qty": 36
+                }
+              ],
+              "shipments": []
+            },
+            "capture_sha256": "5e095a9f0b8a7e665f1f14ec7ef538b18357a292323085a82111333a5d434154"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "b31f6c8c5ffa1498e9e3cb322e9ba90d09cfab787e7137ef275175e21bd7d68f",
+    "channel": "invalid_probe",
+    "family": "booking",
+    "fault": "conflicting_policy",
+    "pair_id": "f92d89e575d795fd",
+    "world_ids": [
+      "71c025e62238fd8e7232"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-541424455",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 88622,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-541424455",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 88622,
+            "payload": [
+              {
+                "capacity": 7,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "5389194aff56bcf2c342bff1ef697d443509fabf6ab8b73dcb782996d6326756"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-541424455",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-541424455",
+                  "start": 552,
+                  "end": 625,
+                  "seats": 4
+                },
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "1353fba4774f64ad4efdd933bb49437109c0026fed1d0b3ba3134f8d101c8399"
+          },
+          {
+            "source": "policy",
+            "entity_id": "resource-541424455",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 88622,
+            "payload": [
+              {
+                "capacity": "conflicting-value",
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "e6f1aa419987ef5e2a93e9d0a0b839c7d3bed0162df62a768ff0da150e12ef94"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "e1b7fa922550a0d4835a6025a58ff7b8d16ef560652803ad766552d5ee3e3dc2",
+    "channel": "invalid_probe",
+    "family": "inventory",
+    "fault": "wrong_entity",
+    "pair_id": "387a6a70c15af65b",
+    "world_ids": [
+      "a49a0e0857c3aaaf63b2"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-928788428",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 40361,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "unrelated-resource",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 40361,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "3fc2b7d5ad863f8d8170d3f9ef0b6b022d9814740282771e2c6e232c08ae0aae"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-928788428",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "packages": 4
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 36,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "units": 8
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "62b616d963127fd4be1acc4eb6fe2a2aa3d7677ca0de6209889dbb0d3961e27a"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "f3a40fe667e63113ad88cd934138dac66c6838d6ce057a94f7532215f7082579",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "4684997d6111cf6d",
+    "world_ids": [
+      "e1d80faa86c5c53156e3"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-468838389",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 76996,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-468838389",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 76996,
+            "payload": [
+              {
+                "minimum_tier": 1,
+                "required_queue": "queue-55",
+                "sla_minutes": 31
+              }
+            ],
+            "capture_sha256": "15683f1d76ad4e9f7f93476a39c3669d23b6ffacd46e2ae77bd7f4e3c47df3b6"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-468838389",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-304428648",
+                  "customer_tier": 1,
+                  "opened_minute": 750
+                }
+              ],
+              "escalations": []
+            },
+            "capture_sha256": "2727fb7068df9af55247ac732e656e87de8024d0de61d12b5227f8bdc6df17de"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "be8b887baaabfcd81b98f9ed786030f1e8166d9c1f452ae46808b3cff70eff6b",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "7735ea8e0a66a9b0",
+    "world_ids": [
+      "3b26105f49f732c89b69"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-420878361",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 61306,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-420878361",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 61306,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 100
+              }
+            ],
+            "capture_sha256": "f06aa4ace3800ff2fb3cb35e31fda7187c136c0b41bbad426c97e94bab00e969"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-420878361",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-306248045",
+                  "sku": "sku-0",
+                  "packages": 4
+                },
+                {
+                  "task_id": "task-306248045",
+                  "sku": "sku-1",
+                  "packages": 4
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 36,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 36,
+                  "after_qty": 28
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-306248045",
+                  "sku": "sku-0",
+                  "units": 8
+                },
+                {
+                  "task_id": "task-306248045",
+                  "sku": "sku-1",
+                  "units": 8
+                }
+              ]
+            },
+            "capture_sha256": "452c9feac093613e0ebe2946c46a54f52640e4ecef5c3a57b59721c2d5bcd9c6"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "89f4d39fca61319e40eb62b7a51079906fb3fdf0cb74dc8ac6a6d2a5f563b7b9",
+    "channel": "incomplete",
+    "family": "inventory",
+    "pair_id": "98b7556f9d335703",
+    "world_ids": [
+      "cf78caeabb219e31aed7",
+      "f7526db6a4c58b6f0f4a"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-794666057",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-794666057",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-586593539",
+                  "sku": "sku-0",
+                  "packages": 1
+                },
+                {
+                  "task_id": "task-586593539",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 24,
+                  "after_qty": 22
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-586593539",
+                  "sku": "sku-0",
+                  "units": 2
+                },
+                {
+                  "task_id": "task-586593539",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "c7f97e643c427ac716a9fd1a7182c364f44a8d63af2a79ef78f0ac8a1300e0de"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "units_per_package": 2,
+          "reserve_floor": 1
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "1316ea8beb3665625b1f84859a31c5a7c7f73fc6cbe7853c92e721cfcd2310cb",
+    "channel": "incomplete",
+    "family": "escalation",
+    "pair_id": "a40c1b6dbd16daaf",
+    "world_ids": [
+      "6db6fa60d55f78a9a5ae",
+      "91c5a008c0b868928862"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-378865192",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-378865192",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-639586513",
+                  "customer_tier": 3,
+                  "opened_minute": 623
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-639586513",
+                  "queue": "queue-38",
+                  "deadline_minute": 661
+                }
+              ]
+            },
+            "capture_sha256": "1be5c861ca10805967ef946fc5e7b88d382be8c4b3eb12065adb33b50d73a56e"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "minimum_tier": 3,
+          "required_queue": "queue-38",
+          "sla_minutes": 48
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "0d83e8dd7250a9208a453fd81c215ff31a7243c34feecb11154da29031e773fc",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "42be581fc5717b76",
+    "world_ids": [
+      "7f87bb8c5d6050781120"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-494236446",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 84122,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-494236446",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 84122,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "2467eb3ea3c38d22cb9769aa946e079888ff433c317c5f70ca02cf895dcd2124"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-494236446",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-583885137",
+                  "sku": "sku-0",
+                  "packages": 1
+                },
+                {
+                  "task_id": "task-583885137",
+                  "sku": "sku-1",
+                  "packages": 1
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 24,
+                  "after_qty": 22
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 24,
+                  "after_qty": 22
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-583885137",
+                  "sku": "sku-0",
+                  "units": 2
+                },
+                {
+                  "task_id": "task-583885137",
+                  "sku": "sku-1",
+                  "units": 2
+                }
+              ]
+            },
+            "capture_sha256": "7778f86c80c36faac1e2cd88c92c1e71ccbb0cb5032c7cf076375754b7600a40"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "74d3ee8f1aba67a0d3227278f9f45b972235d8be9f6f5ea85ac2230e39c4e9d1",
+    "channel": "incomplete",
+    "family": "inventory",
+    "pair_id": "387a6a70c15af65b",
+    "world_ids": [
+      "a49a0e0857c3aaaf63b2",
+      "304aa03c374701c61d13"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-928788428",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-928788428",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "packages": 4
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 36,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "units": 8
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "62b616d963127fd4be1acc4eb6fe2a2aa3d7677ca0de6209889dbb0d3961e27a"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "units_per_package": 2,
+          "reserve_floor": 1
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "09f979792712fafff1cc15ed5e10fb201767ec01b946b9d933f5eef632184f1d",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "6a66a11e28cf3215",
+    "world_ids": [
+      "7c0bf98b67b4f6c9d1a9"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-151773581",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 66362,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-151773581",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 66362,
+            "payload": [
+              {
+                "minimum_tier": 2,
+                "required_queue": "queue-68",
+                "sla_minutes": 37
+              }
+            ],
+            "capture_sha256": "76af5150cefac4013beb24b8333e9901d25d69ecab3b60ca255c75846882181c"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-151773581",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-166764879",
+                  "customer_tier": 2,
+                  "opened_minute": 202
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-166764879",
+                  "queue": "queue-68",
+                  "deadline_minute": 234
+                }
+              ]
+            },
+            "capture_sha256": "6c99c0388e2b565b7e43b11d0d2a4b76ec5a9832f48ae861e22c69e4c7768acd"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "abe2550fd2613c664d8b37e37b644fc3dc49922dc346f48563d4bad1a282db43",
+    "channel": "incomplete",
+    "family": "escalation",
+    "pair_id": "6c737b303327be86",
+    "world_ids": [
+      "96e488872a366fb8e0fd",
+      "40d6c33fb79069dff5f0"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-501659100",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-501659100",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-400886509",
+                  "customer_tier": 1,
+                  "opened_minute": 337
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-400886509",
+                  "queue": "queue-50",
+                  "deadline_minute": 374
+                }
+              ]
+            },
+            "capture_sha256": "cf5a68ea5af7a8f9927809ec00a3529eb63c53c90d39f6babd7ec44189167ab7"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "minimum_tier": 1,
+          "required_queue": "queue-50",
+          "sla_minutes": 47
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "46027d0451d2a5398158ef0aa03dfdcaed92ee427739a58806130a623c291388",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "a40c1b6dbd16daaf",
+    "world_ids": [
+      "91c5a008c0b868928862"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-378865192",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 78638,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-378865192",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 78638,
+            "payload": [
+              {
+                "minimum_tier": 3,
+                "required_queue": "queue-38-alternate",
+                "sla_minutes": 48
+              }
+            ],
+            "capture_sha256": "2a0890b7f73c0ce8a99f4bac2e3464dc3d46401270d82600f6d0602720511c1f"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-378865192",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-639586513",
+                  "customer_tier": 3,
+                  "opened_minute": 623
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-639586513",
+                  "queue": "queue-38",
+                  "deadline_minute": 661
+                }
+              ]
+            },
+            "capture_sha256": "1be5c861ca10805967ef946fc5e7b88d382be8c4b3eb12065adb33b50d73a56e"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "e5476a769163b6a72b26fcb056032934a7ed3d65e1b7ebb91cba93e1a6036573",
+    "channel": "incomplete",
+    "family": "escalation",
+    "pair_id": "6a66a11e28cf3215",
+    "world_ids": [
+      "7c0bf98b67b4f6c9d1a9",
+      "5dd73d5b6f608b8f9f6d"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-151773581",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-151773581",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-166764879",
+                  "customer_tier": 2,
+                  "opened_minute": 202
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-166764879",
+                  "queue": "queue-68",
+                  "deadline_minute": 234
+                }
+              ]
+            },
+            "capture_sha256": "6c99c0388e2b565b7e43b11d0d2a4b76ec5a9832f48ae861e22c69e4c7768acd"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "minimum_tier": 2,
+          "required_queue": "queue-68",
+          "sla_minutes": 37
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "666851f9c74242c9b1b23abc49a2c7410abecc65c2485349b42c840fbe7649be",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "387a6a70c15af65b",
+    "world_ids": [
+      "a49a0e0857c3aaaf63b2"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-928788428",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 40361,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-928788428",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 40361,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "72647c7b67b4f974300c03192aec01e989b73d36d23ad02f5f43a1b0aa13fe57"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-928788428",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "packages": 4
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 36,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "units": 8
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "62b616d963127fd4be1acc4eb6fe2a2aa3d7677ca0de6209889dbb0d3961e27a"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "fb9df1ed0b0f7cf0838efe46248387b1edfb099161ac13be9c9465c15d7c4db6",
+    "channel": "incomplete",
+    "family": "booking",
+    "pair_id": "e76be1d0f1cf8d63",
+    "world_ids": [
+      "373a26af9b70ec34a199",
+      "62f242cd9e5408becf78"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-743875321",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-743875321",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-842713587",
+                  "room_id": "resource-743875321",
+                  "start": 723,
+                  "end": 813,
+                  "seats": 3
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-743875321",
+                  "start": 728,
+                  "end": 823,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "1ce8f40cce7a9f1434dba261fd4809b78fae064f12f82cf8ac9523443e787725"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "capacity": 6,
+          "buffer_minutes": 0
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "37ef4ce0bcaca3374b8b595e784351237471c0d5c14d688c125c3419b8ef2d03",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "f92d89e575d795fd",
+    "world_ids": [
+      "0749d6f9752458baf413"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-541424455",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 69223,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-541424455",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 69223,
+            "payload": [
+              {
+                "capacity": 4,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "768bf019498d7913575db39b9ff0a6355a01e0d5a7e113341f1589d0b5759531"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-541424455",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-541424455",
+                  "start": 552,
+                  "end": 625,
+                  "seats": 4
+                },
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "1353fba4774f64ad4efdd933bb49437109c0026fed1d0b3ba3134f8d101c8399"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "e252862559a91a0b26a9aceeb3f1e78fd115a5f003f3584ce6e19801ff042af9",
+    "channel": "invalid_probe",
+    "family": "booking",
+    "fault": "stale_revision",
+    "pair_id": "f92d89e575d795fd",
+    "world_ids": [
+      "71c025e62238fd8e7232"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-541424455",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 88622,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-541424455",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 88621,
+            "payload": [
+              {
+                "capacity": 7,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "4700ee1fd55dac6862c9a61227802694d19a50dbb7cf16488707cf65b97a2d34"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-541424455",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-541424455",
+                  "start": 552,
+                  "end": 625,
+                  "seats": 4
+                },
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "1353fba4774f64ad4efdd933bb49437109c0026fed1d0b3ba3134f8d101c8399"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "e2143489c932ab631175597011372e57ddee611bed52a24f254c056dc3c2c158",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "92a673ec0a1531f7",
+    "world_ids": [
+      "e83071acbe078f7f554e"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-726767926",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 18695,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-726767926",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 18695,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "1858dc33bef6ab7455ffa1ff9220f7ed742f0e8def8a8785302b821a4ba045fc"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-726767926",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-499917541",
+                  "sku": "sku-0",
+                  "packages": 2
+                },
+                {
+                  "task_id": "task-499917541",
+                  "sku": "sku-1",
+                  "packages": 2
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 28,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 28,
+                  "after_qty": 28
+                }
+              ],
+              "shipments": []
+            },
+            "capture_sha256": "706d9e6f99351f433c80a01afb8791b48ce942a5966a606dde5baf6b551d4d9b"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "c206676d97fffb7665c818c5539ae88a9dabeea7f6be441f3ca7d02081a1184b",
+    "channel": "incomplete",
+    "family": "inventory",
+    "pair_id": "42be581fc5717b76",
+    "world_ids": [
+      "7f87bb8c5d6050781120",
+      "6625d7d9c519a05a5e97"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-494236446",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-494236446",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-583885137",
+                  "sku": "sku-0",
+                  "packages": 1
+                },
+                {
+                  "task_id": "task-583885137",
+                  "sku": "sku-1",
+                  "packages": 1
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 24,
+                  "after_qty": 22
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 24,
+                  "after_qty": 22
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-583885137",
+                  "sku": "sku-0",
+                  "units": 2
+                },
+                {
+                  "task_id": "task-583885137",
+                  "sku": "sku-1",
+                  "units": 2
+                }
+              ]
+            },
+            "capture_sha256": "7778f86c80c36faac1e2cd88c92c1e71ccbb0cb5032c7cf076375754b7600a40"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "units_per_package": 2,
+          "reserve_floor": 1
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "4cc267c8d6375fee8cf67ca33592c32031a2714bdd238e32cbce46539e139951",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "0965e875445a2019",
+    "world_ids": [
+      "e5f49cd9c2d62d7ec0b1"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-707932345",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 70104,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-707932345",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 70104,
+            "payload": [
+              {
+                "units_per_package": 3,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "56fa139ee4c2cc12238f592991f84e33f9c4f97303c0e49e30219ef25891c442"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-707932345",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-602448934",
+                  "sku": "sku-0",
+                  "packages": 1
+                },
+                {
+                  "task_id": "task-602448934",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 24,
+                  "after_qty": 22
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-602448934",
+                  "sku": "sku-0",
+                  "units": 2
+                },
+                {
+                  "task_id": "task-602448934",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "2c62152a38879a2091513783b236bd011483d956e2cd9677e032e28411cd2a21"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "10f17bfd2689b5015b9f8a25636aa6ba5937ec59fa689fcc4abcfdf299f8773e",
+    "channel": "incomplete",
+    "family": "booking",
+    "pair_id": "7c28501aca397cd0",
+    "world_ids": [
+      "2da0124950b8876a81ad",
+      "772ac7428255f43ab59a"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-323967477",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-323967477",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-341885890",
+                  "room_id": "resource-323967477",
+                  "start": 507,
+                  "end": 580,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-323967477",
+                  "start": 585,
+                  "end": 615,
+                  "seats": 4
+                }
+              ]
+            },
+            "capture_sha256": "b2411ff68a9c0fd32aaefc94bc2eab76605001af1545d20faedd32ccf06f4a08"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "capacity": 4,
+          "buffer_minutes": 0
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "33907981b05a4d02ea2473fcf0ac562e2845617c1c12e23b26e055580c663de0",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "98b7556f9d335703",
+    "world_ids": [
+      "f7526db6a4c58b6f0f4a"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-794666057",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 55814,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-794666057",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 55814,
+            "payload": [
+              {
+                "units_per_package": 3,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "66a5b1197164493d27dfb49725e01ac1c70a3ebfa568e1365c0237e083b08a87"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-794666057",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-586593539",
+                  "sku": "sku-0",
+                  "packages": 1
+                },
+                {
+                  "task_id": "task-586593539",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 24,
+                  "after_qty": 22
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-586593539",
+                  "sku": "sku-0",
+                  "units": 2
+                },
+                {
+                  "task_id": "task-586593539",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "c7f97e643c427ac716a9fd1a7182c364f44a8d63af2a79ef78f0ac8a1300e0de"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "d4f4a4ee35b93109321b1ef079fad85c90c0f23459604d2e4acaeabab2a8a164",
+    "channel": "incomplete",
+    "family": "escalation",
+    "pair_id": "b8039c61485b966f",
+    "world_ids": [
+      "90f37d802b9554a101cd",
+      "4e621b6cda02c3313980"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-714041302",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-714041302",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-376157480",
+                  "customer_tier": 2,
+                  "opened_minute": 457
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-376157480",
+                  "queue": "queue-87",
+                  "deadline_minute": 493
+                }
+              ]
+            },
+            "capture_sha256": "703e7d0f119cdc1d7c6cdc793f6ebffc5921d9d68f0afe005e99d1da0a873337"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "minimum_tier": 2,
+          "required_queue": "queue-87",
+          "sla_minutes": 46
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "190b6a2fba0b24398deab2cf0c147c8cecf3b09705b437655c56df6ccfe1bcb8",
+    "channel": "invalid_probe",
+    "family": "escalation",
+    "fault": "missing_policy",
+    "pair_id": "64b3e44002c4cafe",
+    "world_ids": [
+      "662a269cf7de4d4178cd"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-149151350",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 56776,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-149151350",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-905149291",
+                  "customer_tier": 2,
+                  "opened_minute": 508
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-905149291",
+                  "queue": "queue-37",
+                  "deadline_minute": 533
+                }
+              ]
+            },
+            "capture_sha256": "12dec900c6f22ca1638134db8f6fd868148051faf8e0b9727ef25ca92102979b"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "05cd84211bcc124e2e79710541939cecffc55b5933862d1aa79935bab667f3d0",
+    "channel": "incomplete",
+    "family": "inventory",
+    "pair_id": "cdcb5dc2b6f36b63",
+    "world_ids": [
+      "73da0ec6222be87cb2e1",
+      "4dc9dd6c1be30a6fd960"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-969740429",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-969740429",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-587136484",
+                  "sku": "sku-0",
+                  "packages": 2
+                },
+                {
+                  "task_id": "task-587136484",
+                  "sku": "sku-1",
+                  "packages": 4
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 28,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 36,
+                  "after_qty": 36
+                }
+              ],
+              "shipments": []
+            },
+            "capture_sha256": "5e095a9f0b8a7e665f1f14ec7ef538b18357a292323085a82111333a5d434154"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "units_per_package": 2,
+          "reserve_floor": 1
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "bc1804061885612539fb2dfe4c89bfd23439155744dbacf5c3a5d9910dc1a303",
+    "channel": "incomplete",
+    "family": "booking",
+    "pair_id": "39d001491a31d0a7",
+    "world_ids": [
+      "b84ae8a01d07ce9130f6",
+      "b7c8079e304c02fe2868"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-385559497",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-385559497",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-864599309",
+                  "room_id": "resource-385559497",
+                  "start": 541,
+                  "end": 630,
+                  "seats": 3
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-385559497",
+                  "start": 546,
+                  "end": 640,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "19ed0c6dde2f8f7ce7b4186901329351a7a5c1b0dd0cf51721c9ebf67a811cde"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "capacity": 6,
+          "buffer_minutes": 0
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "3c75fdbece8791317ba7227085253e76f4d8b1142ed549c152ff70dcddec24a3",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "92a673ec0a1531f7",
+    "world_ids": [
+      "31dea9714d185ef3210a"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-726767926",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 79195,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-726767926",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 79195,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 100
+              }
+            ],
+            "capture_sha256": "6fdb6d87874648e69a0548299024fe3386181c731f99e0d32d8bbdd0babcb184"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-726767926",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-499917541",
+                  "sku": "sku-0",
+                  "packages": 2
+                },
+                {
+                  "task_id": "task-499917541",
+                  "sku": "sku-1",
+                  "packages": 2
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 28,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 28,
+                  "after_qty": 28
+                }
+              ],
+              "shipments": []
+            },
+            "capture_sha256": "706d9e6f99351f433c80a01afb8791b48ce942a5966a606dde5baf6b551d4d9b"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "e826bfefa6b1a941d6e9b3dba426f4e27ce3a0b3a6a69b923ea744c5dcd56c94",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "b8039c61485b966f",
+    "world_ids": [
+      "90f37d802b9554a101cd"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-714041302",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 77987,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-714041302",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 77987,
+            "payload": [
+              {
+                "minimum_tier": 2,
+                "required_queue": "queue-87",
+                "sla_minutes": 46
+              }
+            ],
+            "capture_sha256": "79c75147028fc7833644dcc090439d6e64fea8aa29f48fcf0cc328729730e0a9"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-714041302",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-376157480",
+                  "customer_tier": 2,
+                  "opened_minute": 457
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-376157480",
+                  "queue": "queue-87",
+                  "deadline_minute": 493
+                }
+              ]
+            },
+            "capture_sha256": "703e7d0f119cdc1d7c6cdc793f6ebffc5921d9d68f0afe005e99d1da0a873337"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "ffc86f16dd71fcd62249938a25abaf12694f12437530ddec5e28fb9c0058b4fe",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "a40c1b6dbd16daaf",
+    "world_ids": [
+      "6db6fa60d55f78a9a5ae"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-378865192",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 22473,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-378865192",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 22473,
+            "payload": [
+              {
+                "minimum_tier": 3,
+                "required_queue": "queue-38",
+                "sla_minutes": 48
+              }
+            ],
+            "capture_sha256": "f17f21dadfd32d0529f36f58071b276bc0da7fab9ff0517c88aeb2ce46bb3996"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-378865192",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-639586513",
+                  "customer_tier": 3,
+                  "opened_minute": 623
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-639586513",
+                  "queue": "queue-38",
+                  "deadline_minute": 661
+                }
+              ]
+            },
+            "capture_sha256": "1be5c861ca10805967ef946fc5e7b88d382be8c4b3eb12065adb33b50d73a56e"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "d88efaf618735f88c176ca4105147d3cd2344ca8d7efbd7c719319f23bc866af",
+    "channel": "incomplete",
+    "family": "booking",
+    "pair_id": "4a7123b9d2eaee3c",
+    "world_ids": [
+      "db5e1f8ed099d8407388",
+      "2f738833bc4df2a4d0eb"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-374116254",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-374116254",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-148734159",
+                  "room_id": "resource-374116254",
+                  "start": 821,
+                  "end": 887,
+                  "seats": 4
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-374116254",
+                  "start": 826,
+                  "end": 897,
+                  "seats": 3
+                },
+                {
+                  "task_id": "task-148734159",
+                  "room_id": "resource-374116254",
+                  "start": 821,
+                  "end": 887,
+                  "seats": 4
+                }
+              ]
+            },
+            "capture_sha256": "f62db6dd60c652095eefc57fe1e3ec31e64cefb7e3047a4238714d091cc117ac"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "capacity": 9,
+          "buffer_minutes": 0
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "485eae6a47c4f739056409a42cdd9111defb0107db81a3829c01becae3f13efd",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "c6e1ac8476bb46b0",
+    "world_ids": [
+      "6c23c6109030dc15f388"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-152046209",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 27332,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-152046209",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 27332,
+            "payload": [
+              {
+                "capacity": 4,
+                "buffer_minutes": 10
+              }
+            ],
+            "capture_sha256": "4f7405697910455717597152beb89fce8e980d5a46408d23457993de5928dd88"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-152046209",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-562101198",
+                  "room_id": "resource-152046209",
+                  "start": 811,
+                  "end": 882,
+                  "seats": 2
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-152046209",
+                  "start": 887,
+                  "end": 917,
+                  "seats": 4
+                },
+                {
+                  "task_id": "task-562101198",
+                  "room_id": "resource-152046209",
+                  "start": 811,
+                  "end": 882,
+                  "seats": 2
+                }
+              ]
+            },
+            "capture_sha256": "afb1ad81363bfa15cc77314caf1c1a3140a2ea33d95076f5ec75a491c0ffbfb7"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "2f64d6518f3f86a057a7baaf7391a56fe49b1e0579baefe44cfbf63ba99b144c",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "7c28501aca397cd0",
+    "world_ids": [
+      "2da0124950b8876a81ad"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-323967477",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 13583,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-323967477",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 13583,
+            "payload": [
+              {
+                "capacity": 4,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "8f6c641c86251014572d245e4eafb1266f6492d6136e7fc4de16d6f4fd697e38"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-323967477",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-341885890",
+                  "room_id": "resource-323967477",
+                  "start": 507,
+                  "end": 580,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-323967477",
+                  "start": 585,
+                  "end": 615,
+                  "seats": 4
+                }
+              ]
+            },
+            "capture_sha256": "b2411ff68a9c0fd32aaefc94bc2eab76605001af1545d20faedd32ccf06f4a08"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "30e97351e0a2996c7e3f57ec1e589bbf387c6568e117ea1ed32844c727290026",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "768a9cba02f68fb7",
+    "world_ids": [
+      "740774f72db27c8e8528"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-871233119",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 96387,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-871233119",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 96387,
+            "payload": [
+              {
+                "capacity": 1,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "9524012f534a7b8fc075d8f4de72e39df6d33f31c59415b074a0a0cf3f71ad88"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-871233119",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-288821246",
+                  "room_id": "resource-871233119",
+                  "start": 564,
+                  "end": 629,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-871233119",
+                  "start": 634,
+                  "end": 664,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "6a9fff9668293e2ace583e08c03977dd31fb39b90d9d9df14e39c2a34ea7691e"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "547d92e3cef64bd723536cb0116ef2c1ae86b877b989ba2121e1024d92b477e2",
+    "channel": "invalid_probe",
+    "family": "escalation",
+    "fault": "stale_revision",
+    "pair_id": "64b3e44002c4cafe",
+    "world_ids": [
+      "662a269cf7de4d4178cd"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-149151350",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 56776,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-149151350",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 56775,
+            "payload": [
+              {
+                "minimum_tier": 2,
+                "required_queue": "queue-37",
+                "sla_minutes": 35
+              }
+            ],
+            "capture_sha256": "7e584f783b57971de6bf2321c2477c4251ed08a11acee8c29b5f2fe5c7b2f762"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-149151350",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-905149291",
+                  "customer_tier": 2,
+                  "opened_minute": 508
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-905149291",
+                  "queue": "queue-37",
+                  "deadline_minute": 533
+                }
+              ]
+            },
+            "capture_sha256": "12dec900c6f22ca1638134db8f6fd868148051faf8e0b9727ef25ca92102979b"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "810571a2f34cc406f9feef295d44beb2c6b907a09c171501489ab37fa9a7b300",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "e76be1d0f1cf8d63",
+    "world_ids": [
+      "373a26af9b70ec34a199"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-743875321",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 10335,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-743875321",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 10335,
+            "payload": [
+              {
+                "capacity": 6,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "f822049ce26167365db521d25f472b795c44288b7ac193580874eab610b65141"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-743875321",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-842713587",
+                  "room_id": "resource-743875321",
+                  "start": 723,
+                  "end": 813,
+                  "seats": 3
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-743875321",
+                  "start": 728,
+                  "end": 823,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "1ce8f40cce7a9f1434dba261fd4809b78fae064f12f82cf8ac9523443e787725"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "fd824331788db65488645e8e3f452829fcc7104b0fe38e058feb4aaaad03df7e",
+    "channel": "invalid_probe",
+    "family": "booking",
+    "fault": "wrong_entity",
+    "pair_id": "f92d89e575d795fd",
+    "world_ids": [
+      "71c025e62238fd8e7232"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-541424455",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 88622,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "unrelated-resource",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 88622,
+            "payload": [
+              {
+                "capacity": 7,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "23bb161878c9a6073487bb3f96b648dc580c81b26f42a4aaa7fc8aa4beef6e4a"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-541424455",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-541424455",
+                  "start": 552,
+                  "end": 625,
+                  "seats": 4
+                },
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "1353fba4774f64ad4efdd933bb49437109c0026fed1d0b3ba3134f8d101c8399"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "dc4d5488afae99a9e120d021af76c0b1b9e86bd070d10071b58d349505344d2a",
+    "channel": "invalid_probe",
+    "family": "inventory",
+    "fault": "stale_revision",
+    "pair_id": "387a6a70c15af65b",
+    "world_ids": [
+      "a49a0e0857c3aaaf63b2"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-928788428",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 40361,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-928788428",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 40360,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "38bb63d02c55e34ebb4b936d5cacce6bc0e20197843bce5c30cc097138248c1a"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-928788428",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "packages": 4
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 36,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "units": 8
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "62b616d963127fd4be1acc4eb6fe2a2aa3d7677ca0de6209889dbb0d3961e27a"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "4b9c0df1479c14893a53a8490a5794bf103d4f257211c4fefbeb771055528563",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "016b0f42bbb44b20",
+    "world_ids": [
+      "68dd150ff5f57a12b1d4"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-845367910",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 89641,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-845367910",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 89641,
+            "payload": [
+              {
+                "minimum_tier": 1,
+                "required_queue": "queue-43",
+                "sla_minutes": 22
+              }
+            ],
+            "capture_sha256": "583c4142226e80903e6b13744984a768f6fb4fb3d64b387b45cbebafb3daa407"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-845367910",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-406688317",
+                  "customer_tier": 1,
+                  "opened_minute": 428
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-406688317",
+                  "queue": "queue-43",
+                  "deadline_minute": 455
+                }
+              ]
+            },
+            "capture_sha256": "c8c46352755ede717b0448c379452d440dccbda993418dc6d3ef6d1496c75f93"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "a9c81a6b3aa65d0c632c442dd63bcbb6e63cd50afc87b616b364c597a3cc6bea",
+    "channel": "invalid_probe",
+    "family": "escalation",
+    "fault": "wrong_entity",
+    "pair_id": "64b3e44002c4cafe",
+    "world_ids": [
+      "662a269cf7de4d4178cd"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-149151350",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 56776,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "unrelated-resource",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 56776,
+            "payload": [
+              {
+                "minimum_tier": 2,
+                "required_queue": "queue-37",
+                "sla_minutes": 35
+              }
+            ],
+            "capture_sha256": "37a6cdc3e0e9ffa31dc4b6fa92d42558fcacc68c289692d32e6b69a8f7246132"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-149151350",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-905149291",
+                  "customer_tier": 2,
+                  "opened_minute": 508
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-905149291",
+                  "queue": "queue-37",
+                  "deadline_minute": 533
+                }
+              ]
+            },
+            "capture_sha256": "12dec900c6f22ca1638134db8f6fd868148051faf8e0b9727ef25ca92102979b"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "7b022fd19b2a1f05578764784a207c41ed1900277abe110b42a1d15ac69f8490",
+    "channel": "incomplete",
+    "family": "booking",
+    "pair_id": "f92d89e575d795fd",
+    "world_ids": [
+      "71c025e62238fd8e7232",
+      "0749d6f9752458baf413"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-541424455",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-541424455",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-541424455",
+                  "start": 552,
+                  "end": 625,
+                  "seats": 4
+                },
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "1353fba4774f64ad4efdd933bb49437109c0026fed1d0b3ba3134f8d101c8399"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "capacity": 7,
+          "buffer_minutes": 0
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "465e945d70aa2a73369c43821d19feb27448c8d27a1748dc16c969e10680ca15",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "4a7123b9d2eaee3c",
+    "world_ids": [
+      "2f738833bc4df2a4d0eb"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-374116254",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 15450,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-374116254",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 15450,
+            "payload": [
+              {
+                "capacity": 6,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "fbf7781cad09c555efae6da14d616fe3f94aa17f19f44fe5b5f72545ea2389ad"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-374116254",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-148734159",
+                  "room_id": "resource-374116254",
+                  "start": 821,
+                  "end": 887,
+                  "seats": 4
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-374116254",
+                  "start": 826,
+                  "end": 897,
+                  "seats": 3
+                },
+                {
+                  "task_id": "task-148734159",
+                  "room_id": "resource-374116254",
+                  "start": 821,
+                  "end": 887,
+                  "seats": 4
+                }
+              ]
+            },
+            "capture_sha256": "f62db6dd60c652095eefc57fe1e3ec31e64cefb7e3047a4238714d091cc117ac"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "ec15de5a7832d8a0c81f4d6624684a7483f4bfa12c0e8cda0a68d4f49ebba440",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "7c28501aca397cd0",
+    "world_ids": [
+      "772ac7428255f43ab59a"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-323967477",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 87528,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-323967477",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 87528,
+            "payload": [
+              {
+                "capacity": 4,
+                "buffer_minutes": 10
+              }
+            ],
+            "capture_sha256": "0c71f4d288c41876ca369f21e79687c103fa4a401fc9c2ef87b9c71b732f922e"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-323967477",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-341885890",
+                  "room_id": "resource-323967477",
+                  "start": 507,
+                  "end": 580,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-323967477",
+                  "start": 585,
+                  "end": 615,
+                  "seats": 4
+                }
+              ]
+            },
+            "capture_sha256": "b2411ff68a9c0fd32aaefc94bc2eab76605001af1545d20faedd32ccf06f4a08"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "702901a5e1abff7bb5889d6ca891fde135ad9d606a850a1fecb755da18884e65",
+    "channel": "incomplete",
+    "family": "booking",
+    "pair_id": "c6e1ac8476bb46b0",
+    "world_ids": [
+      "a4a4d1258d5bde707238",
+      "6c23c6109030dc15f388"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-152046209",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-152046209",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-562101198",
+                  "room_id": "resource-152046209",
+                  "start": 811,
+                  "end": 882,
+                  "seats": 2
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-152046209",
+                  "start": 887,
+                  "end": 917,
+                  "seats": 4
+                },
+                {
+                  "task_id": "task-562101198",
+                  "room_id": "resource-152046209",
+                  "start": 811,
+                  "end": 882,
+                  "seats": 2
+                }
+              ]
+            },
+            "capture_sha256": "afb1ad81363bfa15cc77314caf1c1a3140a2ea33d95076f5ec75a491c0ffbfb7"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "capacity": 4,
+          "buffer_minutes": 0
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "98821166f30d118587211c919cd12e566f9dd3aa0e3c8ce191830b7717acd8f6",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "f88f41561433acde",
+    "world_ids": [
+      "8c9b5426cda07c104423"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-565018478",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 69626,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-565018478",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 69626,
+            "payload": [
+              {
+                "units_per_package": 3,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "3f8b17af626142caa1a8ac73eca23d32516a0af44c599686927072f31d1cb280"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-565018478",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-368648657",
+                  "sku": "sku-0",
+                  "packages": 3
+                },
+                {
+                  "task_id": "task-368648657",
+                  "sku": "sku-1",
+                  "packages": 2
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 32,
+                  "after_qty": 26
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 28,
+                  "after_qty": 24
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-368648657",
+                  "sku": "sku-0",
+                  "units": 6
+                },
+                {
+                  "task_id": "task-368648657",
+                  "sku": "sku-1",
+                  "units": 4
+                }
+              ]
+            },
+            "capture_sha256": "96ae795d44396c6db4543efaa99eaa55d483f48ef07f1f8ef487f60789664da0"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "9ebe09aae074fdd76b9a8c80da827b5b9866cbb76944caa0ac3879184f3c5d86",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "6c737b303327be86",
+    "world_ids": [
+      "40d6c33fb79069dff5f0"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-501659100",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 55328,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-501659100",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 55328,
+            "payload": [
+              {
+                "minimum_tier": 2,
+                "required_queue": "queue-50",
+                "sla_minutes": 47
+              }
+            ],
+            "capture_sha256": "1c8caf509712c950eb12a4a2529624de62f6864a3033d740a10e33e3d8cb08da"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-501659100",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-400886509",
+                  "customer_tier": 1,
+                  "opened_minute": 337
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-400886509",
+                  "queue": "queue-50",
+                  "deadline_minute": 374
+                }
+              ]
+            },
+            "capture_sha256": "cf5a68ea5af7a8f9927809ec00a3529eb63c53c90d39f6babd7ec44189167ab7"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "e24075d2cc4d5b9b336bc6a988e0673ac92f10735f0059efb97393fe45fec204",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "f92d89e575d795fd",
+    "world_ids": [
+      "71c025e62238fd8e7232"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-541424455",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 88622,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-541424455",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 88622,
+            "payload": [
+              {
+                "capacity": 7,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "5389194aff56bcf2c342bff1ef697d443509fabf6ab8b73dcb782996d6326756"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-541424455",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-541424455",
+                  "start": 552,
+                  "end": 625,
+                  "seats": 4
+                },
+                {
+                  "task_id": "task-592488639",
+                  "room_id": "resource-541424455",
+                  "start": 547,
+                  "end": 615,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "1353fba4774f64ad4efdd933bb49437109c0026fed1d0b3ba3134f8d101c8399"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "a38cbc67f99aa75868d3d18590f34f9fd9fb4bcaea01639b5af3752ab8ad8217",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "768a9cba02f68fb7",
+    "world_ids": [
+      "2d0f40f3d34fd9017e9a"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-871233119",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 58862,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-871233119",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 58862,
+            "payload": [
+              {
+                "capacity": 1,
+                "buffer_minutes": 10
+              }
+            ],
+            "capture_sha256": "effe337f845dd12aa60958ec5d98bbe0a1ea017577ad32926148245c6d11a1da"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-871233119",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-288821246",
+                  "room_id": "resource-871233119",
+                  "start": 564,
+                  "end": 629,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-871233119",
+                  "start": 634,
+                  "end": 664,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "6a9fff9668293e2ace583e08c03977dd31fb39b90d9d9df14e39c2a34ea7691e"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "671760239670a75a7c160f33ff8829e081dc09c5f551b25a85a7a9fb4a84bd5a",
+    "channel": "incomplete",
+    "family": "inventory",
+    "pair_id": "0965e875445a2019",
+    "world_ids": [
+      "8f206eac2983ad9ee93d",
+      "e5f49cd9c2d62d7ec0b1"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-707932345",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-707932345",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-602448934",
+                  "sku": "sku-0",
+                  "packages": 1
+                },
+                {
+                  "task_id": "task-602448934",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 24,
+                  "after_qty": 22
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-602448934",
+                  "sku": "sku-0",
+                  "units": 2
+                },
+                {
+                  "task_id": "task-602448934",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "2c62152a38879a2091513783b236bd011483d956e2cd9677e032e28411cd2a21"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "units_per_package": 2,
+          "reserve_floor": 1
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "5515fe19aa572eeebad6f4ecb7febcad65ae6344a16d4769f7658ec8a414fc4e",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "42be581fc5717b76",
+    "world_ids": [
+      "6625d7d9c519a05a5e97"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-494236446",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 11158,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-494236446",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 11158,
+            "payload": [
+              {
+                "units_per_package": 3,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "ef9c3e9924917462ec980563a3f67a762f32d7a14684b2e0f4ab48b92a16b98a"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-494236446",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-583885137",
+                  "sku": "sku-0",
+                  "packages": 1
+                },
+                {
+                  "task_id": "task-583885137",
+                  "sku": "sku-1",
+                  "packages": 1
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 24,
+                  "after_qty": 22
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 24,
+                  "after_qty": 22
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-583885137",
+                  "sku": "sku-0",
+                  "units": 2
+                },
+                {
+                  "task_id": "task-583885137",
+                  "sku": "sku-1",
+                  "units": 2
+                }
+              ]
+            },
+            "capture_sha256": "7778f86c80c36faac1e2cd88c92c1e71ccbb0cb5032c7cf076375754b7600a40"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "73f688b8c8aa85f386a26ac8ac61b06d658a7f574e62a76a7940fa201e41809a",
+    "channel": "incomplete",
+    "family": "booking",
+    "pair_id": "768a9cba02f68fb7",
+    "world_ids": [
+      "740774f72db27c8e8528",
+      "2d0f40f3d34fd9017e9a"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-871233119",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-871233119",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-288821246",
+                  "room_id": "resource-871233119",
+                  "start": 564,
+                  "end": 629,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-871233119",
+                  "start": 634,
+                  "end": 664,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "6a9fff9668293e2ace583e08c03977dd31fb39b90d9d9df14e39c2a34ea7691e"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "capacity": 1,
+          "buffer_minutes": 0
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "77e9f6cc9a23aff2a28805a29f55a65e148379e5e4f7b531e5930c361930e8a0",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "64b3e44002c4cafe",
+    "world_ids": [
+      "662a269cf7de4d4178cd"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-149151350",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 56776,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-149151350",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 56776,
+            "payload": [
+              {
+                "minimum_tier": 2,
+                "required_queue": "queue-37",
+                "sla_minutes": 35
+              }
+            ],
+            "capture_sha256": "ef10e82d388dd4b0ad43d1999cf5ffd77d81cc9142b65ed0c8d3c674aa149793"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-149151350",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-905149291",
+                  "customer_tier": 2,
+                  "opened_minute": 508
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-905149291",
+                  "queue": "queue-37",
+                  "deadline_minute": 533
+                }
+              ]
+            },
+            "capture_sha256": "12dec900c6f22ca1638134db8f6fd868148051faf8e0b9727ef25ca92102979b"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "09dd07e8ef1a0dd36046a6a06c79a5526f69cdc69ff6df450d980967afc73e0a",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "4684997d6111cf6d",
+    "world_ids": [
+      "1c75e9db2a32e327ac0a"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-468838389",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 36074,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-468838389",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 36074,
+            "payload": [
+              {
+                "minimum_tier": 2,
+                "required_queue": "queue-55",
+                "sla_minutes": 31
+              }
+            ],
+            "capture_sha256": "45032ca997906c1803d1213d6249d490abcd40d382a072a745a9c746a3d01fbc"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-468838389",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-304428648",
+                  "customer_tier": 1,
+                  "opened_minute": 750
+                }
+              ],
+              "escalations": []
+            },
+            "capture_sha256": "2727fb7068df9af55247ac732e656e87de8024d0de61d12b5227f8bdc6df17de"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "c551154521d9f33e4f36b6ce179553740009eb4269516f2e70116b3ce4ddaf0d",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "98b7556f9d335703",
+    "world_ids": [
+      "cf78caeabb219e31aed7"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-794666057",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 88658,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-794666057",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 88658,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "2e3be5efa466062c503fa99c3506297a6b03f4457a10d312c9c8b55dd3fcbf81"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-794666057",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-586593539",
+                  "sku": "sku-0",
+                  "packages": 1
+                },
+                {
+                  "task_id": "task-586593539",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 24,
+                  "after_qty": 22
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-586593539",
+                  "sku": "sku-0",
+                  "units": 2
+                },
+                {
+                  "task_id": "task-586593539",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "c7f97e643c427ac716a9fd1a7182c364f44a8d63af2a79ef78f0ac8a1300e0de"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "44e074b8d0577a90c0563e554d223e3c38bcf4fc967d75392dea32afdf45816c",
+    "channel": "invalid_probe",
+    "family": "escalation",
+    "fault": "conflicting_policy",
+    "pair_id": "64b3e44002c4cafe",
+    "world_ids": [
+      "662a269cf7de4d4178cd"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-149151350",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 56776,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-149151350",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 56776,
+            "payload": [
+              {
+                "minimum_tier": 2,
+                "required_queue": "queue-37",
+                "sla_minutes": 35
+              }
+            ],
+            "capture_sha256": "ef10e82d388dd4b0ad43d1999cf5ffd77d81cc9142b65ed0c8d3c674aa149793"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-149151350",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-905149291",
+                  "customer_tier": 2,
+                  "opened_minute": 508
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-905149291",
+                  "queue": "queue-37",
+                  "deadline_minute": 533
+                }
+              ]
+            },
+            "capture_sha256": "12dec900c6f22ca1638134db8f6fd868148051faf8e0b9727ef25ca92102979b"
+          },
+          {
+            "source": "policy",
+            "entity_id": "resource-149151350",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 56776,
+            "payload": [
+              {
+                "minimum_tier": "conflicting-value",
+                "required_queue": "queue-37",
+                "sla_minutes": 35
+              }
+            ],
+            "capture_sha256": "b25fe1faed2a7093b08f82048c96d490652a166b5d3408f3b41f1a1cbfc2981b"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "2bfa189476ec5519889c2fb599c7d1dd43950eb663c96cc232a90fb46238ebee",
+    "channel": "incomplete",
+    "family": "booking",
+    "pair_id": "1d48dd21720c9ac7",
+    "world_ids": [
+      "c8330da7b4e59e74d6fe",
+      "f927f4ffb49892925001"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-487288351",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-487288351",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-848573920",
+                  "room_id": "resource-487288351",
+                  "start": 514,
+                  "end": 578,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-487288351",
+                  "start": 583,
+                  "end": 613,
+                  "seats": 1
+                },
+                {
+                  "task_id": "task-848573920",
+                  "room_id": "resource-487288351",
+                  "start": 514,
+                  "end": 578,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "490329fd2738c73370d72b7562c5b1fc6618c86e81c9eaebe4bde6466b3b2637"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "capacity": 1,
+          "buffer_minutes": 0
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "535d04433540cc7bb51e4c5ea32bf56d1ded76c713c57c70716bfa47fe5b3a1b",
+    "channel": "incomplete",
+    "family": "escalation",
+    "pair_id": "64b3e44002c4cafe",
+    "world_ids": [
+      "662a269cf7de4d4178cd",
+      "2ff909cb999e6c028d44"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-149151350",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-149151350",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-905149291",
+                  "customer_tier": 2,
+                  "opened_minute": 508
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-905149291",
+                  "queue": "queue-37",
+                  "deadline_minute": 533
+                }
+              ]
+            },
+            "capture_sha256": "12dec900c6f22ca1638134db8f6fd868148051faf8e0b9727ef25ca92102979b"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "minimum_tier": 2,
+          "required_queue": "queue-37",
+          "sla_minutes": 35
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "c9690f5a3e1f06eed3d1a62bb59e9f914747a630cb5f8dd6be898fae0c8a3eed",
+    "channel": "incomplete",
+    "family": "inventory",
+    "pair_id": "7735ea8e0a66a9b0",
+    "world_ids": [
+      "86eac9c77fc69280da5a",
+      "3b26105f49f732c89b69"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-420878361",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-420878361",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-306248045",
+                  "sku": "sku-0",
+                  "packages": 4
+                },
+                {
+                  "task_id": "task-306248045",
+                  "sku": "sku-1",
+                  "packages": 4
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 36,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 36,
+                  "after_qty": 28
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-306248045",
+                  "sku": "sku-0",
+                  "units": 8
+                },
+                {
+                  "task_id": "task-306248045",
+                  "sku": "sku-1",
+                  "units": 8
+                }
+              ]
+            },
+            "capture_sha256": "452c9feac093613e0ebe2946c46a54f52640e4ecef5c3a57b59721c2d5bcd9c6"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "units_per_package": 2,
+          "reserve_floor": 1
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "e97b69387c4f0be8f1400e9356e04e2bb116878ff3ed1b9aa815509c1023d5d5",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "6c737b303327be86",
+    "world_ids": [
+      "96e488872a366fb8e0fd"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-501659100",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 62861,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-501659100",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 62861,
+            "payload": [
+              {
+                "minimum_tier": 1,
+                "required_queue": "queue-50",
+                "sla_minutes": 47
+              }
+            ],
+            "capture_sha256": "166c80567c343c0915a9489d6d5d803a26b1d2de38c73a47f0df92f8ad0ae47d"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-501659100",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-400886509",
+                  "customer_tier": 1,
+                  "opened_minute": 337
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-400886509",
+                  "queue": "queue-50",
+                  "deadline_minute": 374
+                }
+              ]
+            },
+            "capture_sha256": "cf5a68ea5af7a8f9927809ec00a3529eb63c53c90d39f6babd7ec44189167ab7"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "8c614992b2b3d3d2d69bf30d4e2266b8ea0097c652823d1fd74c847ac303f6da",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "e76be1d0f1cf8d63",
+    "world_ids": [
+      "62f242cd9e5408becf78"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-743875321",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 97736,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-743875321",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 97736,
+            "payload": [
+              {
+                "capacity": 3,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "5ad5c8afd355bef8c950f6b77fb5c52f47cfd1432da56a549aaf840d7945670d"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-743875321",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-842713587",
+                  "room_id": "resource-743875321",
+                  "start": 723,
+                  "end": 813,
+                  "seats": 3
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-743875321",
+                  "start": 728,
+                  "end": 823,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "1ce8f40cce7a9f1434dba261fd4809b78fae064f12f82cf8ac9523443e787725"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "dcb85ad264a4e583f3e85d2e91a7e38ef625c334ba939da6f1bfcf21aa5900fe",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "cdcb5dc2b6f36b63",
+    "world_ids": [
+      "4dc9dd6c1be30a6fd960"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-969740429",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 11010,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-969740429",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 11010,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 100
+              }
+            ],
+            "capture_sha256": "fb9c7e9959a4ab08d01008b5f1b29c83f79314f7634bb1223fc42543e2d16af6"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-969740429",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-587136484",
+                  "sku": "sku-0",
+                  "packages": 2
+                },
+                {
+                  "task_id": "task-587136484",
+                  "sku": "sku-1",
+                  "packages": 4
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 28,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 36,
+                  "after_qty": 36
+                }
+              ],
+              "shipments": []
+            },
+            "capture_sha256": "5e095a9f0b8a7e665f1f14ec7ef538b18357a292323085a82111333a5d434154"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "1b2a5f3d6ee6989625bc4a73bb4d1713e792dd1c67cd0d0eba031a2dc3fd7410",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "57fd799309c4387b",
+    "world_ids": [
+      "78373a3c771b3ca8637f"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-394939799",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 45757,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-394939799",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 45757,
+            "payload": [
+              {
+                "minimum_tier": 1,
+                "required_queue": "queue-86",
+                "sla_minutes": 32
+              }
+            ],
+            "capture_sha256": "1510934cc1d449c6b49be4d90213ee22a1c9a5b6587475390c0d0fa7a8aa914d"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-394939799",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-749796648",
+                  "customer_tier": 1,
+                  "opened_minute": 216
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-749796648",
+                  "queue": "queue-86",
+                  "deadline_minute": 238
+                }
+              ]
+            },
+            "capture_sha256": "73ac8e37c1151e93e81429fef1729b19430d7130c1b98a87068b71573196d4be"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "004903f9f7f6e21ffe0199917659abc71a7953e385f5f507f110b931a2a5db24",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "1d48dd21720c9ac7",
+    "world_ids": [
+      "f927f4ffb49892925001"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-487288351",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 18338,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-487288351",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 18338,
+            "payload": [
+              {
+                "capacity": 1,
+                "buffer_minutes": 10
+              }
+            ],
+            "capture_sha256": "11e80cc2ffa61978e388516dd3bfc35223f871cb785233d01bd509d7cfb02ae4"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-487288351",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-848573920",
+                  "room_id": "resource-487288351",
+                  "start": 514,
+                  "end": 578,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-487288351",
+                  "start": 583,
+                  "end": 613,
+                  "seats": 1
+                },
+                {
+                  "task_id": "task-848573920",
+                  "room_id": "resource-487288351",
+                  "start": 514,
+                  "end": 578,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "490329fd2738c73370d72b7562c5b1fc6618c86e81c9eaebe4bde6466b3b2637"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "cd1e3e3e46a09bbf6e61abe9de7575883125cb34b6358c74c92e99d42acbcf5e",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "64b3e44002c4cafe",
+    "world_ids": [
+      "2ff909cb999e6c028d44"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-149151350",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 57804,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-149151350",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 57804,
+            "payload": [
+              {
+                "minimum_tier": 3,
+                "required_queue": "queue-37",
+                "sla_minutes": 35
+              }
+            ],
+            "capture_sha256": "d90c7bc4158fe5e4977f1e2ea40b6b836b5dc378193d8192845f94b3388384ed"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-149151350",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-905149291",
+                  "customer_tier": 2,
+                  "opened_minute": 508
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-905149291",
+                  "queue": "queue-37",
+                  "deadline_minute": 533
+                }
+              ]
+            },
+            "capture_sha256": "12dec900c6f22ca1638134db8f6fd868148051faf8e0b9727ef25ca92102979b"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "4fc683e5cc89593cb2c005724e236a4042c1de3836ba2f6bbe87713ce981ede2",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "016b0f42bbb44b20",
+    "world_ids": [
+      "53483deed9a2cd2119a7"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-845367910",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 38405,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-845367910",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 38405,
+            "payload": [
+              {
+                "minimum_tier": 1,
+                "required_queue": "queue-43",
+                "sla_minutes": 32
+              }
+            ],
+            "capture_sha256": "4600c8432fa1cd515084403df2d9106920de3525b48bfba26e7de0e5f56c7f20"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-845367910",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-406688317",
+                  "customer_tier": 1,
+                  "opened_minute": 428
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-406688317",
+                  "queue": "queue-43",
+                  "deadline_minute": 455
+                }
+              ]
+            },
+            "capture_sha256": "c8c46352755ede717b0448c379452d440dccbda993418dc6d3ef6d1496c75f93"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "3b3c58ceb146a8a1c196316cab66180e5a05045173928b014ad4a570ba1402b0",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "39d001491a31d0a7",
+    "world_ids": [
+      "b7c8079e304c02fe2868"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-385559497",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 11731,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-385559497",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 11731,
+            "payload": [
+              {
+                "capacity": 3,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "919d4daa795c23315c36606127fc1eea498659a9bd1f5596d8cadc48b7424a4f"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-385559497",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-864599309",
+                  "room_id": "resource-385559497",
+                  "start": 541,
+                  "end": 630,
+                  "seats": 3
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-385559497",
+                  "start": 546,
+                  "end": 640,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "19ed0c6dde2f8f7ce7b4186901329351a7a5c1b0dd0cf51721c9ebf67a811cde"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "7c9d2a154815c12f9dee32df96fe88128807c8f0aeeefec230657a7f76681789",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "387a6a70c15af65b",
+    "world_ids": [
+      "304aa03c374701c61d13"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-928788428",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 72980,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-928788428",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 72980,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 100
+              }
+            ],
+            "capture_sha256": "8cbcfab605c6eb2bde280e363bd327479c0f8ccb006be8963d49d490e0c3a91f"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-928788428",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "packages": 4
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 36,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "units": 8
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "62b616d963127fd4be1acc4eb6fe2a2aa3d7677ca0de6209889dbb0d3961e27a"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "2d0f06780bc0e8bd0df5dec3ed2fbcb5ddf90cce6131f6e01e98136adb9240e1",
+    "channel": "incomplete",
+    "family": "inventory",
+    "pair_id": "f88f41561433acde",
+    "world_ids": [
+      "358c082b692b29ef5cc8",
+      "8c9b5426cda07c104423"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-565018478",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-565018478",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-368648657",
+                  "sku": "sku-0",
+                  "packages": 3
+                },
+                {
+                  "task_id": "task-368648657",
+                  "sku": "sku-1",
+                  "packages": 2
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 32,
+                  "after_qty": 26
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 28,
+                  "after_qty": 24
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-368648657",
+                  "sku": "sku-0",
+                  "units": 6
+                },
+                {
+                  "task_id": "task-368648657",
+                  "sku": "sku-1",
+                  "units": 4
+                }
+              ]
+            },
+            "capture_sha256": "96ae795d44396c6db4543efaa99eaa55d483f48ef07f1f8ef487f60789664da0"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "units_per_package": 2,
+          "reserve_floor": 1
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "cbdf73760335493208daa05ae524b2318d867a0810cec0bead5161fa38624d62",
+    "channel": "invalid_probe",
+    "family": "inventory",
+    "fault": "missing_policy",
+    "pair_id": "387a6a70c15af65b",
+    "world_ids": [
+      "a49a0e0857c3aaaf63b2"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-928788428",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 40361,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-928788428",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "packages": 4
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 36,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "units": 8
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "62b616d963127fd4be1acc4eb6fe2a2aa3d7677ca0de6209889dbb0d3961e27a"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "6c4cfb29a61a13f9077d64dd10bb188846922630bbd4183f4f4d026a54fc59bb",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "7735ea8e0a66a9b0",
+    "world_ids": [
+      "86eac9c77fc69280da5a"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-420878361",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 85712,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-420878361",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 85712,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "53c5e1b28869d1f65fd4f22ecd2e75b50c9efc498c624fc5f14f958ac251d2c5"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-420878361",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-306248045",
+                  "sku": "sku-0",
+                  "packages": 4
+                },
+                {
+                  "task_id": "task-306248045",
+                  "sku": "sku-1",
+                  "packages": 4
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 36,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 36,
+                  "after_qty": 28
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-306248045",
+                  "sku": "sku-0",
+                  "units": 8
+                },
+                {
+                  "task_id": "task-306248045",
+                  "sku": "sku-1",
+                  "units": 8
+                }
+              ]
+            },
+            "capture_sha256": "452c9feac093613e0ebe2946c46a54f52640e4ecef5c3a57b59721c2d5bcd9c6"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "21988e50e5d523e6be5b0ecc2f0e00eb2b2647e44c18ac48fbd38a3c9477c2fa",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "39d001491a31d0a7",
+    "world_ids": [
+      "b84ae8a01d07ce9130f6"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-385559497",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 34772,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-385559497",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 34772,
+            "payload": [
+              {
+                "capacity": 6,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "f049bc4dcce35bdf18f32b09f122cff6950939e188bc1bc6a6e5ac94a0f01405"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-385559497",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-864599309",
+                  "room_id": "resource-385559497",
+                  "start": 541,
+                  "end": 630,
+                  "seats": 3
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-385559497",
+                  "start": 546,
+                  "end": 640,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "19ed0c6dde2f8f7ce7b4186901329351a7a5c1b0dd0cf51721c9ebf67a811cde"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "ba26fb7d5699acc7b40b0ecacc199ca77380f58946fc449f6bd31616c2327def",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "6a66a11e28cf3215",
+    "world_ids": [
+      "5dd73d5b6f608b8f9f6d"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-151773581",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 59459,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-151773581",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 59459,
+            "payload": [
+              {
+                "minimum_tier": 2,
+                "required_queue": "queue-68",
+                "sla_minutes": 27
+              }
+            ],
+            "capture_sha256": "35f90ae014b0edd634b881c11e8209c18de36222665238d0118df2f373138301"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-151773581",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-166764879",
+                  "customer_tier": 2,
+                  "opened_minute": 202
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-166764879",
+                  "queue": "queue-68",
+                  "deadline_minute": 234
+                }
+              ]
+            },
+            "capture_sha256": "6c99c0388e2b565b7e43b11d0d2a4b76ec5a9832f48ae861e22c69e4c7768acd"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "6c62b11f44ce1bec5d2a1bfac51cadd0c16d5068568c941e8fcdaac88bfb33a7",
+    "channel": "invalid_probe",
+    "family": "inventory",
+    "fault": "conflicting_policy",
+    "pair_id": "387a6a70c15af65b",
+    "world_ids": [
+      "a49a0e0857c3aaaf63b2"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-928788428",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 40361,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-928788428",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 40361,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "72647c7b67b4f974300c03192aec01e989b73d36d23ad02f5f43a1b0aa13fe57"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-928788428",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "packages": 4
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 36,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-0",
+                  "units": 8
+                },
+                {
+                  "task_id": "task-474333830",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "62b616d963127fd4be1acc4eb6fe2a2aa3d7677ca0de6209889dbb0d3961e27a"
+          },
+          {
+            "source": "policy",
+            "entity_id": "resource-928788428",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 40361,
+            "payload": [
+              {
+                "units_per_package": "conflicting-value",
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "04663499c4deaa99264bc42654420dd49384bfa5ab01bdc86e3e9cec7cacc59f"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "e6fcfaaf215fb7c6f8f1b3b1df1074a41a88e7d4cf252ffb7f78e1cb7d728d28",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "f88f41561433acde",
+    "world_ids": [
+      "358c082b692b29ef5cc8"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-565018478",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 61391,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-565018478",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 61391,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "c27d8181d98a546bfba60d65dd2d2c5aa9b7925912c4ab69cd45ce4c4fafa1b0"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-565018478",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-368648657",
+                  "sku": "sku-0",
+                  "packages": 3
+                },
+                {
+                  "task_id": "task-368648657",
+                  "sku": "sku-1",
+                  "packages": 2
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 32,
+                  "after_qty": 26
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 28,
+                  "after_qty": 24
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-368648657",
+                  "sku": "sku-0",
+                  "units": 6
+                },
+                {
+                  "task_id": "task-368648657",
+                  "sku": "sku-1",
+                  "units": 4
+                }
+              ]
+            },
+            "capture_sha256": "96ae795d44396c6db4543efaa99eaa55d483f48ef07f1f8ef487f60789664da0"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "6cdfa28ecad0697408ea9e79ed7271dfb6d5226673aaacc655bd64265ac10a08",
+    "channel": "complete",
+    "family": "escalation",
+    "pair_id": "b8039c61485b966f",
+    "world_ids": [
+      "4e621b6cda02c3313980"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-714041302",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 27959,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-714041302",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 27959,
+            "payload": [
+              {
+                "minimum_tier": 2,
+                "required_queue": "queue-87-alternate",
+                "sla_minutes": 46
+              }
+            ],
+            "capture_sha256": "7cfad07b84b6f333c3101ec46d6e4b8f406934447346c687ec06772c3f0205ac"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-714041302",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-376157480",
+                  "customer_tier": 2,
+                  "opened_minute": 457
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-376157480",
+                  "queue": "queue-87",
+                  "deadline_minute": 493
+                }
+              ]
+            },
+            "capture_sha256": "703e7d0f119cdc1d7c6cdc793f6ebffc5921d9d68f0afe005e99d1da0a873337"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "reject"
+  },
+  {
+    "packet_id": "b8d62e0a306df14bf371863c2bb296545c41499403bca184af7388db98bd7e3b",
+    "channel": "incomplete",
+    "family": "escalation",
+    "pair_id": "4684997d6111cf6d",
+    "world_ids": [
+      "e1d80faa86c5c53156e3",
+      "1c75e9db2a32e327ac0a"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-468838389",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-468838389",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-304428648",
+                  "customer_tier": 1,
+                  "opened_minute": 750
+                }
+              ],
+              "escalations": []
+            },
+            "capture_sha256": "2727fb7068df9af55247ac732e656e87de8024d0de61d12b5227f8bdc6df17de"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "minimum_tier": 1,
+          "required_queue": "queue-55",
+          "sla_minutes": 31
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "65fdfb7324a11e1c408a3c5070c3d993ad7fdd95c53ddd6ef304c7b5d76aa9cc",
+    "channel": "incomplete",
+    "family": "escalation",
+    "pair_id": "57fd799309c4387b",
+    "world_ids": [
+      "78373a3c771b3ca8637f",
+      "fd7f4fb8afaee9b05a52"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-394939799",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-394939799",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-749796648",
+                  "customer_tier": 1,
+                  "opened_minute": 216
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-749796648",
+                  "queue": "queue-86",
+                  "deadline_minute": 238
+                }
+              ]
+            },
+            "capture_sha256": "73ac8e37c1151e93e81429fef1729b19430d7130c1b98a87068b71573196d4be"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "minimum_tier": 1,
+          "required_queue": "queue-86",
+          "sla_minutes": 32
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "fa5b1992ba737779b602f5185d89ac585d4902d062edc69aa7349b6a51dd09e0",
+    "channel": "complete",
+    "family": "booking",
+    "pair_id": "1d48dd21720c9ac7",
+    "world_ids": [
+      "c8330da7b4e59e74d6fe"
+    ],
+    "packet": {
+      "family": "booking",
+      "entity_id": "resource-487288351",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 69151,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-487288351",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 69151,
+            "payload": [
+              {
+                "capacity": 1,
+                "buffer_minutes": 0
+              }
+            ],
+            "capture_sha256": "9b630ba0bb8446facc90b73b9dcc130e032a4f354e51b419f83784a6452c519e"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-487288351",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-848573920",
+                  "room_id": "resource-487288351",
+                  "start": 514,
+                  "end": 578,
+                  "seats": 1
+                }
+              ],
+              "bookings": [
+                {
+                  "task_id": "other",
+                  "room_id": "resource-487288351",
+                  "start": 583,
+                  "end": 613,
+                  "seats": 1
+                },
+                {
+                  "task_id": "task-848573920",
+                  "room_id": "resource-487288351",
+                  "start": 514,
+                  "end": 578,
+                  "seats": 1
+                }
+              ]
+            },
+            "capture_sha256": "490329fd2738c73370d72b7562c5b1fc6618c86e81c9eaebe4bde6466b3b2637"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  },
+  {
+    "packet_id": "91ed66bcc4f55f5ae7df45ada698474545c0829873d43d6e46d6c971dee85900",
+    "channel": "incomplete",
+    "family": "escalation",
+    "pair_id": "016b0f42bbb44b20",
+    "world_ids": [
+      "53483deed9a2cd2119a7",
+      "68dd150ff5f57a12b1d4"
+    ],
+    "packet": {
+      "family": "escalation",
+      "entity_id": "resource-845367910",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-845367910",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-406688317",
+                  "customer_tier": 1,
+                  "opened_minute": 428
+                }
+              ],
+              "escalations": [
+                {
+                  "task_id": "task-406688317",
+                  "queue": "queue-43",
+                  "deadline_minute": 455
+                }
+              ]
+            },
+            "capture_sha256": "c8c46352755ede717b0448c379452d440dccbda993418dc6d3ef6d1496c75f93"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "minimum_tier": 1,
+          "required_queue": "queue-43",
+          "sla_minutes": 32
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "3f8fc34e772be3d53210937d10328deb6e05e01c9322606fadedd320b8bd8ef6",
+    "channel": "incomplete",
+    "family": "inventory",
+    "pair_id": "92a673ec0a1531f7",
+    "world_ids": [
+      "e83071acbe078f7f554e",
+      "31dea9714d185ef3210a"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-726767926",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": null,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "state",
+            "entity_id": "resource-726767926",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-499917541",
+                  "sku": "sku-0",
+                  "packages": 2
+                },
+                {
+                  "task_id": "task-499917541",
+                  "sku": "sku-1",
+                  "packages": 2
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 28,
+                  "after_qty": 28
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 28,
+                  "after_qty": 28
+                }
+              ],
+              "shipments": []
+            },
+            "capture_sha256": "706d9e6f99351f433c80a01afb8791b48ce942a5966a606dde5baf6b551d4d9b"
+          }
+        ]
+      },
+      "cached_policy": [
+        {
+          "units_per_package": 2,
+          "reserve_floor": 1
+        }
+      ]
+    },
+    "expected_verdict": "review"
+  },
+  {
+    "packet_id": "1764cb325727fb616fab2c661431efcbbbee3631a5e0ea562db495a1c0a3eef6",
+    "channel": "complete",
+    "family": "inventory",
+    "pair_id": "0965e875445a2019",
+    "world_ids": [
+      "8f206eac2983ad9ee93d"
+    ],
+    "packet": {
+      "family": "inventory",
+      "entity_id": "resource-707932345",
+      "evidence": {
+        "metadata": {
+          "capture_epoch": 1000,
+          "current_policy_revision": 27947,
+          "current_state_revision": 7
+        },
+        "snapshots": [
+          {
+            "source": "policy",
+            "entity_id": "resource-707932345",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 27947,
+            "payload": [
+              {
+                "units_per_package": 2,
+                "reserve_floor": 1
+              }
+            ],
+            "capture_sha256": "9d3cb98c801ecde4ee717ff62b28095e834852ff87dcea3eff0c3a58d44d48b1"
+          },
+          {
+            "source": "state",
+            "entity_id": "resource-707932345",
+            "schema_version": 1,
+            "capture_epoch": 1000,
+            "revision": 7,
+            "payload": {
+              "request": [
+                {
+                  "task_id": "task-602448934",
+                  "sku": "sku-0",
+                  "packages": 1
+                },
+                {
+                  "task_id": "task-602448934",
+                  "sku": "sku-1",
+                  "packages": 3
+                }
+              ],
+              "stock": [
+                {
+                  "sku": "sku-0",
+                  "before_qty": 24,
+                  "after_qty": 22
+                },
+                {
+                  "sku": "sku-1",
+                  "before_qty": 32,
+                  "after_qty": 26
+                }
+              ],
+              "shipments": [
+                {
+                  "task_id": "task-602448934",
+                  "sku": "sku-0",
+                  "units": 2
+                },
+                {
+                  "task_id": "task-602448934",
+                  "sku": "sku-1",
+                  "units": 6
+                }
+              ]
+            },
+            "capture_sha256": "2c62152a38879a2091513783b236bd011483d956e2cd9677e032e28411cd2a21"
+          }
+        ]
+      }
+    },
+    "expected_verdict": "accept"
+  }
+]

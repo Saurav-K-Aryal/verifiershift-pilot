@@ -1,0 +1,266 @@
+[
+  {
+    "pair_id": "f92d89e575d795fd",
+    "family": "booking",
+    "world_ids": [
+      "71c025e62238fd8e7232",
+      "0749d6f9752458baf413"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "7b022fd19b2a1f05578764784a207c41ed1900277abe110b42a1d15ac69f8490"
+  },
+  {
+    "pair_id": "39d001491a31d0a7",
+    "family": "booking",
+    "world_ids": [
+      "b84ae8a01d07ce9130f6",
+      "b7c8079e304c02fe2868"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "bc1804061885612539fb2dfe4c89bfd23439155744dbacf5c3a5d9910dc1a303"
+  },
+  {
+    "pair_id": "4a7123b9d2eaee3c",
+    "family": "booking",
+    "world_ids": [
+      "db5e1f8ed099d8407388",
+      "2f738833bc4df2a4d0eb"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "d88efaf618735f88c176ca4105147d3cd2344ca8d7efbd7c719319f23bc866af"
+  },
+  {
+    "pair_id": "e76be1d0f1cf8d63",
+    "family": "booking",
+    "world_ids": [
+      "373a26af9b70ec34a199",
+      "62f242cd9e5408becf78"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "fb9df1ed0b0f7cf0838efe46248387b1edfb099161ac13be9c9465c15d7c4db6"
+  },
+  {
+    "pair_id": "c6e1ac8476bb46b0",
+    "family": "booking",
+    "world_ids": [
+      "a4a4d1258d5bde707238",
+      "6c23c6109030dc15f388"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "702901a5e1abff7bb5889d6ca891fde135ad9d606a850a1fecb755da18884e65"
+  },
+  {
+    "pair_id": "768a9cba02f68fb7",
+    "family": "booking",
+    "world_ids": [
+      "740774f72db27c8e8528",
+      "2d0f40f3d34fd9017e9a"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "73f688b8c8aa85f386a26ac8ac61b06d658a7f574e62a76a7940fa201e41809a"
+  },
+  {
+    "pair_id": "1d48dd21720c9ac7",
+    "family": "booking",
+    "world_ids": [
+      "c8330da7b4e59e74d6fe",
+      "f927f4ffb49892925001"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "2bfa189476ec5519889c2fb599c7d1dd43950eb663c96cc232a90fb46238ebee"
+  },
+  {
+    "pair_id": "7c28501aca397cd0",
+    "family": "booking",
+    "world_ids": [
+      "2da0124950b8876a81ad",
+      "772ac7428255f43ab59a"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "10f17bfd2689b5015b9f8a25636aa6ba5937ec59fa689fcc4abcfdf299f8773e"
+  },
+  {
+    "pair_id": "387a6a70c15af65b",
+    "family": "inventory",
+    "world_ids": [
+      "a49a0e0857c3aaaf63b2",
+      "304aa03c374701c61d13"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "74d3ee8f1aba67a0d3227278f9f45b972235d8be9f6f5ea85ac2230e39c4e9d1"
+  },
+  {
+    "pair_id": "92a673ec0a1531f7",
+    "family": "inventory",
+    "world_ids": [
+      "e83071acbe078f7f554e",
+      "31dea9714d185ef3210a"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "3f8fc34e772be3d53210937d10328deb6e05e01c9322606fadedd320b8bd8ef6"
+  },
+  {
+    "pair_id": "7735ea8e0a66a9b0",
+    "family": "inventory",
+    "world_ids": [
+      "86eac9c77fc69280da5a",
+      "3b26105f49f732c89b69"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "c9690f5a3e1f06eed3d1a62bb59e9f914747a630cb5f8dd6be898fae0c8a3eed"
+  },
+  {
+    "pair_id": "cdcb5dc2b6f36b63",
+    "family": "inventory",
+    "world_ids": [
+      "73da0ec6222be87cb2e1",
+      "4dc9dd6c1be30a6fd960"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "05cd84211bcc124e2e79710541939cecffc55b5933862d1aa79935bab667f3d0"
+  },
+  {
+    "pair_id": "f88f41561433acde",
+    "family": "inventory",
+    "world_ids": [
+      "358c082b692b29ef5cc8",
+      "8c9b5426cda07c104423"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "2d0f06780bc0e8bd0df5dec3ed2fbcb5ddf90cce6131f6e01e98136adb9240e1"
+  },
+  {
+    "pair_id": "42be581fc5717b76",
+    "family": "inventory",
+    "world_ids": [
+      "7f87bb8c5d6050781120",
+      "6625d7d9c519a05a5e97"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "c206676d97fffb7665c818c5539ae88a9dabeea7f6be441f3ca7d02081a1184b"
+  },
+  {
+    "pair_id": "0965e875445a2019",
+    "family": "inventory",
+    "world_ids": [
+      "8f206eac2983ad9ee93d",
+      "e5f49cd9c2d62d7ec0b1"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "671760239670a75a7c160f33ff8829e081dc09c5f551b25a85a7a9fb4a84bd5a"
+  },
+  {
+    "pair_id": "98b7556f9d335703",
+    "family": "inventory",
+    "world_ids": [
+      "cf78caeabb219e31aed7",
+      "f7526db6a4c58b6f0f4a"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "89f4d39fca61319e40eb62b7a51079906fb3fdf0cb74dc8ac6a6d2a5f563b7b9"
+  },
+  {
+    "pair_id": "64b3e44002c4cafe",
+    "family": "escalation",
+    "world_ids": [
+      "662a269cf7de4d4178cd",
+      "2ff909cb999e6c028d44"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "535d04433540cc7bb51e4c5ea32bf56d1ded76c713c57c70716bfa47fe5b3a1b"
+  },
+  {
+    "pair_id": "a40c1b6dbd16daaf",
+    "family": "escalation",
+    "world_ids": [
+      "6db6fa60d55f78a9a5ae",
+      "91c5a008c0b868928862"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "1316ea8beb3665625b1f84859a31c5a7c7f73fc6cbe7853c92e721cfcd2310cb"
+  },
+  {
+    "pair_id": "6a66a11e28cf3215",
+    "family": "escalation",
+    "world_ids": [
+      "7c0bf98b67b4f6c9d1a9",
+      "5dd73d5b6f608b8f9f6d"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "e5476a769163b6a72b26fcb056032934a7ed3d65e1b7ebb91cba93e1a6036573"
+  },
+  {
+    "pair_id": "4684997d6111cf6d",
+    "family": "escalation",
+    "world_ids": [
+      "e1d80faa86c5c53156e3",
+      "1c75e9db2a32e327ac0a"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "b8d62e0a306df14bf371863c2bb296545c41499403bca184af7388db98bd7e3b"
+  },
+  {
+    "pair_id": "57fd799309c4387b",
+    "family": "escalation",
+    "world_ids": [
+      "78373a3c771b3ca8637f",
+      "fd7f4fb8afaee9b05a52"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "65fdfb7324a11e1c408a3c5070c3d993ad7fdd95c53ddd6ef304c7b5d76aa9cc"
+  },
+  {
+    "pair_id": "016b0f42bbb44b20",
+    "family": "escalation",
+    "world_ids": [
+      "53483deed9a2cd2119a7",
+      "68dd150ff5f57a12b1d4"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "91ed66bcc4f55f5ae7df45ada698474545c0829873d43d6e46d6c971dee85900"
+  },
+  {
+    "pair_id": "6c737b303327be86",
+    "family": "escalation",
+    "world_ids": [
+      "96e488872a366fb8e0fd",
+      "40d6c33fb79069dff5f0"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "abe2550fd2613c664d8b37e37b644fc3dc49922dc346f48563d4bad1a282db43"
+  },
+  {
+    "pair_id": "b8039c61485b966f",
+    "family": "escalation",
+    "world_ids": [
+      "90f37d802b9554a101cd",
+      "4e621b6cda02c3313980"
+    ],
+    "opposite_SQL_labels": true,
+    "byte_identical_incomplete_packets": true,
+    "incomplete_packet_sha256": "d4f4a4ee35b93109321b1ef079fad85c90c0f23459604d2e4acaeabab2a8a164"
+  }
+]

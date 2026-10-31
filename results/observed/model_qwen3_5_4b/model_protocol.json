@@ -1,0 +1,15 @@
+{
+  "status": "frozen_before_calls",
+  "model": "qwen3.5:4b",
+  "model_digest": "7f3251fa6878a78a606bcb3c074283306e5ad2ea411a7774a9dd98a4bc7f2d13",
+  "planned_calls": 84,
+  "frozen_packet_sha256": "deea198fc83dd5bdbbc4766e0c2b5bdc475b676f2e9caaf8407db538fd8be7e3",
+  "provider": {
+    "temperature": 0,
+    "seed": 2026103101,
+    "think": false,
+    "num_ctx": 4096,
+    "num_predict": 160
+  },
+  "keep_alive": "5m within finite model block; explicit keep_alive0 unload after completion"
+}

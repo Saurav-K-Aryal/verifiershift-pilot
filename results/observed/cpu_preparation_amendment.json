@@ -1,0 +1,12 @@
+{
+  "status": "recorded_before_any_model_call",
+  "actual_native_calls_before_amendment": 0,
+  "previous_CPU_run": "runs/strengthening-01-20261031",
+  "previous_source_sha256": "f409234ed66966ebbc5e08d322a89d3d7e3299d409e1f9d6c5ddcde803f56e33",
+  "changes": [
+    "Policy revisions are arbitrary random version IDs rather than latent-world indices1/2, preventing an avoidable metadata shortcut.",
+    "Both native model digests frozen in protocol before generation.",
+    "Residence metadata now truthfully says finite5minute model block followed by explicit unload."
+  ],
+  "selection": "Same fixed seed and declared24pair/three-family sampler; no model response or scientific outcome drove an edit. Old CPU data and hashes remain intact."
+}

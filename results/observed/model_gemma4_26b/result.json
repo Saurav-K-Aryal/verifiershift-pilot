@@ -1,0 +1,42 @@
+{
+  "experiment_id": "01",
+  "status": "completed",
+  "model": "gemma4:26b",
+  "actual_model_calls": 84,
+  "seconds": 50.820995624992065,
+  "channels": {
+    "incomplete": {
+      "packets": 24,
+      "raw_correct": 24,
+      "gated_correct": 24,
+      "invalid_outputs": 0,
+      "raw_accepts": 0,
+      "raw_false_accepts": 0,
+      "raw_unsupported_determinate_decisions": 0
+    },
+    "complete": {
+      "packets": 48,
+      "raw_correct": 34,
+      "gated_correct": 34,
+      "invalid_outputs": 1,
+      "raw_accepts": 24,
+      "raw_false_accepts": 7,
+      "raw_unsupported_determinate_decisions": 0
+    },
+    "invalid_probe": {
+      "packets": 12,
+      "raw_correct": 12,
+      "gated_correct": 12,
+      "invalid_outputs": 0,
+      "raw_accepts": 0,
+      "raw_false_accepts": 0,
+      "raw_unsupported_determinate_decisions": 0
+    }
+  },
+  "limits": [
+    "The local adapter and SQLite state are trusted and the source read is transaction-consistent. Digests detect capture changes; they do not authenticate arbitrary forged sources. Typed contracts are authored per schema, not inferred zero-shot.",
+    "Three newly authored families with24logical parameterized pairs. Twin worlds and replay conditions are dependent; no population risk bound or real agent rollout is tested.",
+    "Added source information is an explicit intervention. Confidence calibration and real agent rollouts are not measured."
+  ],
+  "executor": "Saurav K. Aryal, with Codex-assisted implementation and execution."
+}

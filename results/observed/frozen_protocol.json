@@ -1,0 +1,98 @@
+{
+  "status": "frozen_before_locked_case_generation_and_model_calls",
+  "model_records": {
+    "gemma4:26b": {
+      "name": "gemma4:26b",
+      "model": "gemma4:26b",
+      "modified_at": "2026-10-02T12:40:42.241898921-04:00",
+      "size": 18731025629,
+      "digest": "001e5dafc3c77684c2307ebc6ab8e336e10c9b18eca52acf547d72fc83c3ca8c",
+      "details": {
+        "parent_model": "c4-targeted-20260929-26b/model-q4_K_M.gguf",
+        "format": "gguf",
+        "family": "gemma4",
+        "families": [
+          "gemma4"
+        ],
+        "parameter_size": "25.2B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 2816,
+        "runner": "llamacpp"
+      },
+      "capabilities": [
+        "completion",
+        "vision",
+        "tools",
+        "thinking"
+      ]
+    },
+    "qwen3.5:4b": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "modified_at": "2026-10-31T15:49:16.084071568-04:00",
+      "size": 3973305013,
+      "digest": "7f3251fa6878a78a606bcb3c074283306e5ad2ea411a7774a9dd98a4bc7f2d13",
+      "details": {
+        "parent_model": "",
+        "format": "safetensors",
+        "family": "",
+        "families": null,
+        "parameter_size": "",
+        "quantization_level": "nvfp4",
+        "runner": "mlx"
+      },
+      "capabilities": [
+        "completion",
+        "vision",
+        "thinking",
+        "tools"
+      ]
+    }
+  },
+  "seed": 2026103101,
+  "source_sha256": "654106df6fa8303a4b327bacc6ef065b0f8ef706ccc63f1c575c2083095872bf",
+  "plan_sha256": "9f078a0af40a2b93940016f717c85e10f3fb5681aa2594e2a6865e6df378f1b3",
+  "independent_plan_review": {
+    "status": "approved_before_locked_inference",
+    "plan_sha256": "9f078a0af40a2b93940016f717c85e10f3fb5681aa2594e2a6865e6df378f1b3",
+    "reviewer": "root, separate from implementing agent",
+    "conditions": [
+      "Authoritative probe must be a genuine atomic database read; compare added-information intervention, not equal-information algorithm superiority.",
+      "Assert byte-identical incomplete twins and opposite independent SQL labels. Report native unique calls separately from duplicated-world scoring.",
+      "No private oracle labels, latent condition IDs, side-channel filenames, or truth-coded entity identifiers in model packets.",
+      "Explicit complete-capture trust assumption; checker cannot certify arbitrary forged authorities or resolve hidden state without new evidence.",
+      "Freeze source, manifests and prompt before inference. Invalid-output and false accept/reject costs separate; no test-driven selection.",
+      "GPU inference waits until root releases08 slot; maximum168 calls."
+    ],
+    "scientific_assessment": "A substantially stronger held-out-schema observability study that can support the revised evidence-contract proposal. Does not rescue the previous learned-calibration claim."
+  },
+  "families": [
+    "booking",
+    "inventory",
+    "escalation"
+  ],
+  "pairs_per_family": 8,
+  "models": [
+    "gemma4:26b",
+    "qwen3.5:4b"
+  ],
+  "max_native_calls": 168,
+  "system_prompt": "You verify task outcomes from supplied evidence only. Never invent a missing policy or state read. Return strict JSON only.",
+  "general_prompt": "First validate evidence: require one policy source and one state source, each for the requested entity_id, schema_version1, capture_epoch equal metadata.capture_epoch; policy revision must equal metadata.current_policy_revision and state revision metadata.current_state_revision. A missing current revision, missing source, multiple conflicting sources, wrong entity/schema/epoch/revision means review. Source hashes are captured by a trusted adapter; do not treat cached_policy as current authority. With valid complete evidence decide accept if the postcondition holds, otherwise reject. Return JSON {\"verdict\":\"accept|reject|review\",\"reason\":\"short reason\"}. Confidence is not requested.\n",
+  "family_contracts": {
+    "booking": "A request is eligible if existing other bookings plus the requested seats fit capacity. Other booking [start,end) overlaps request [s,e) if start < e+buffer_minutes and end > s-buffer_minutes. Sum seats of these other bookings. If eligible require exactly one booking for task_id matching room_id,start,end,seats. If ineligible require no booking for task_id. Sources policy and state must both meet the evidence requirements.",
+    "inventory": "Convert each requested package quantity to units using current policy units_per_package. Eligible means before_qty minus converted requested units >= reserve_floor for EVERY SKU. If eligible require exactly one shipment per requested SKU with the converted quantity and each after_qty=before_qty-converted_quantity. If ineligible require zero shipments and every after_qty=before_qty. Sources policy and state must both meet evidence requirements.",
+    "escalation": "A task is eligible if customer_tier >= policy minimum_tier. If eligible require exactly one escalation for task_id, its queue equal policy required_queue and its deadline_minute <= request opened_minute+policy sla_minutes. If ineligible require zero escalations. Sources policy and state must both meet evidence requirements."
+  },
+  "generation": {
+    "temperature": 0,
+    "seed": 2026103101,
+    "think": false,
+    "num_ctx": 4096,
+    "num_predict": 160
+  },
+  "trust_boundary": "The local adapter and SQLite state are trusted and the source read is transaction-consistent. Digests detect capture changes; they do not authenticate arbitrary forged sources. Typed contracts are authored per schema, not inferred zero-shot.",
+  "sampler_boundary": "Three newly authored families with24logical parameterized pairs. Twin worlds and replay conditions are dependent; no population risk bound or real agent rollout is tested.",
+  "development": "Previous refund-only studies motivated the design; no new development model calls or prompt/threshold search."
+}

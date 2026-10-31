@@ -1,0 +1,42 @@
+{
+  "experiment_id": "01",
+  "status": "completed",
+  "model": "qwen3.5:4b",
+  "actual_model_calls": 84,
+  "seconds": 32.58475925005041,
+  "channels": {
+    "incomplete": {
+      "packets": 24,
+      "raw_correct": 24,
+      "gated_correct": 24,
+      "invalid_outputs": 0,
+      "raw_accepts": 0,
+      "raw_false_accepts": 0,
+      "raw_unsupported_determinate_decisions": 0
+    },
+    "complete": {
+      "packets": 48,
+      "raw_correct": 15,
+      "gated_correct": 15,
+      "invalid_outputs": 2,
+      "raw_accepts": 29,
+      "raw_false_accepts": 14,
+      "raw_unsupported_determinate_decisions": 0
+    },
+    "invalid_probe": {
+      "packets": 12,
+      "raw_correct": 10,
+      "gated_correct": 12,
+      "invalid_outputs": 0,
+      "raw_accepts": 2,
+      "raw_false_accepts": 0,
+      "raw_unsupported_determinate_decisions": 2
+    }
+  },
+  "limits": [
+    "The local adapter and SQLite state are trusted and the source read is transaction-consistent. Digests detect capture changes; they do not authenticate arbitrary forged sources. Typed contracts are authored per schema, not inferred zero-shot.",
+    "Three newly authored families with24logical parameterized pairs. Twin worlds and replay conditions are dependent; no population risk bound or real agent rollout is tested.",
+    "Added source information is an explicit intervention. Confidence calibration and real agent rollouts are not measured."
+  ],
+  "executor": "Saurav K. Aryal, with Codex-assisted implementation and execution."
+}

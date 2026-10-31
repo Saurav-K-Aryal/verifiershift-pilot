@@ -1,0 +1,22 @@
+{
+  "name": "qwen3.5:4b",
+  "model": "qwen3.5:4b",
+  "modified_at": "2026-10-31T15:49:16.084071568-04:00",
+  "size": 3973305013,
+  "digest": "7f3251fa6878a78a606bcb3c074283306e5ad2ea411a7774a9dd98a4bc7f2d13",
+  "details": {
+    "parent_model": "",
+    "format": "safetensors",
+    "family": "",
+    "families": null,
+    "parameter_size": "",
+    "quantization_level": "nvfp4",
+    "runner": "mlx"
+  },
+  "capabilities": [
+    "completion",
+    "vision",
+    "thinking",
+    "tools"
+  ]
+}

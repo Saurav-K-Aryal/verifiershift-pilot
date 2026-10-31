@@ -1,0 +1,28 @@
+{
+  "status": "plan_for_independent_review_before_any_model_call",
+  "topic": "01",
+  "purpose": "Test explicit evidence contracts across genuinely distinct held-out workflow policies and a direct authoritative-evidence intervention, rather than adding more refund wordings.",
+  "development_family": "refund monetary eligibility and exact effects; CPU prompt/schema checks only",
+  "locked_families": [
+    "room reservation: interval overlap, capacity and booking identity",
+    "inventory dispatch: per-SKU stock conservation, all-or-none fulfillment and policy reserve floors",
+    "support escalation: entitlement, priority-dependent required queue and SLA deadline"
+  ],
+  "sampler": "Eight parameterized logical pairs per held-out family, frozen seeds. Each pair has two separately instantiated SQLite worlds with identical pre-probe evidence and opposite postcondition truth because the authoritative policy changes. There are24pairs/48worlds, not48 independent workflow families.",
+  "evidence_channels": {
+    "before_authoritative_probe": "Actor-visible cached policy and committed-effect summary, explicitly missing the authoritative current policy/state requirements. One unique packet per twin pair:24native inputs/model. Exact pre-probe bytes must match across each pair and gold truth must differ.",
+    "after_authoritative_probe": "An actual SQLite read transaction captures the authoritative current policy and all contract-required committed state with entity, schema, epoch and revision binding.48native inputs/model. It adds information; pre/post gains are not equal-information algorithmic superiority.",
+    "invalid_probe_controls": "Twelve prespecified packets: four per held-out family, obtained by missing one required source, revision mismatch, source conflict and wrong entity binding. Required answer review; no outcome label is inserted in the packet.12native inputs/model."
+  },
+  "oracle": "Independent SQL queries against each database produce task labels. The verifier receives only JSON snapshots and a separately implemented typed public contract; private oracle labels, latent-world names and generator condition labels never enter its input.",
+  "methods": ["typed validity-only gate", "typed evidence-and-postcondition checker", "one frozen structured-verdict prompt per model", "diagnostic validity-gated model verdict"],
+  "models": ["gemma4:26b", "qwen3.5:4b"],
+  "maximum_actual_native_calls": 168,
+  "call_accounting": "2models x(24unique pre-probe+48complete+12invalid)=168. The identical twin pre-probe prediction is reused across its two worlds for the ambiguity diagnostic; it is not called twice or counted as independent evidence.",
+  "generation": {"temperature": 0, "think": false, "num_ctx": 4096, "num_predict": 160, "output": "strict JSON verdict accept/reject/review; confidence is not requested"},
+  "metrics": ["complete-evidence correct accept/reject and true-correct-case acceptance", "pre-probe review and twin indistinguishability", "invalid-source review versus unsafe accept/reject", "raw invalid/truncated outputs", "matched complete-evidence model versus typed decisions", "actual calls/tokens/time"],
+  "no_tuning_rule": "Freeze generator, policy contracts, SQLite oracle, packet manifest, prompts, model digests, case order and source SHA before locked inference. Any implementation failure remains versioned and reviewed before rerun; no model-output-driven prompt, case, model or threshold selection.",
+  "inference_boundary": "Authored controlled workflows, trusted and transaction-consistent capture, explicit current-policy source assumptions. No deployment validity, real agent-rollout success, useful learned calibration or recovery of truly unavailable information is promised.",
+  "cpu_work_allowed_now": "Implement fixtures, independent SQL oracle, typed checker and protocol/packet integrity checks without model calls.",
+  "model_launch_requirement": "Independent plan review and explicit parent GPU GO. Root serializes with07/08."
+}

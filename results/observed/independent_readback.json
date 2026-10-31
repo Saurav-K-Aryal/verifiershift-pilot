@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "review_source_sha256": "65914fa106a8c7b513130d33028291e5b1bba33f5a48c29b5a06002ff3103a95",
+  "independent_SQL_worlds_checked": 48,
+  "unique_packets_checked": 84,
+  "actual_native_calls_checked": 168,
+  "source_sha256": "654106df6fa8303a4b327bacc6ef065b0f8ef706ccc63f1c575c2083095872bf",
+  "packet_manifest_sha256": "deea198fc83dd5bdbbc4766e0c2b5bdc475b676f2e9caaf8407db538fd8be7e3",
+  "models": {
+    "gemma4:26b": {
+      "actual_calls": 84,
+      "channels": {
+        "incomplete": {
+          "packets": 24,
+          "raw_correct": 24,
+          "raw_false_accepts": 0,
+          "raw_unsupported_determinate_decisions": 0,
+          "invalid_outputs": 0,
+          "correct_case_accepts": 0,
+          "correct_cases": 0,
+          "review_on_complete": 0
+        },
+        "complete": {
+          "packets": 48,
+          "raw_correct": 34,
+          "raw_false_accepts": 7,
+          "raw_unsupported_determinate_decisions": 0,
+          "invalid_outputs": 1,
+          "correct_case_accepts": 17,
+          "correct_cases": 24,
+          "review_on_complete": 0
+        },
+        "invalid_probe": {
+          "packets": 12,
+          "raw_correct": 12,
+          "raw_false_accepts": 0,
+          "raw_unsupported_determinate_decisions": 0,
+          "invalid_outputs": 0,
+          "correct_case_accepts": 0,
+          "correct_cases": 0,
+          "review_on_complete": 0
+        }
+      },
+      "raw_log_sha256": "975d0984e61072eb72dcf2be50e65c7a1d20d85bc85326b93aab10ba7a6f6c4a",
+      "result_sha256": "cd220cadc533b710032601e3c8412bc8b8aed7e8d986a5ccebf869dd15b7bc04",
+      "native_token_caps": {
+        "stop": 83,
+        "length": 1
+      },
+      "families": {
+        "booking": {
+          "complete_packets": 16,
+          "correct_determinate": 8,
+          "false_accepts": 4
+        },
+        "inventory": {
+          "complete_packets": 16,
+          "correct_determinate": 12,
+          "false_accepts": 1
+        },
+        "escalation": {
+          "complete_packets": 16,
+          "correct_determinate": 14,
+          "false_accepts": 2
+        }
+      }
+    },
+    "qwen3.5:4b": {
+      "actual_calls": 84,
+      "channels": {
+        "incomplete": {
+          "packets": 24,
+          "raw_correct": 24,
+          "raw_false_accepts": 0,
+          "raw_unsupported_determinate_decisions": 0,
+          "invalid_outputs": 0,
+          "correct_case_accepts": 0,
+          "correct_cases": 0,
+          "review_on_complete": 0
+        },
+        "complete": {
+          "packets": 48,
+          "raw_correct": 15,
+          "raw_false_accepts": 14,
+          "raw_unsupported_determinate_decisions": 0,
+          "invalid_outputs": 2,
+          "correct_case_accepts": 15,
+          "correct_cases": 24,
+          "review_on_complete": 17
+        },
+        "invalid_probe": {
+          "packets": 12,
+          "raw_correct": 10,
+          "raw_false_accepts": 0,
+          "raw_unsupported_determinate_decisions": 2,
+          "invalid_outputs": 0,
+          "correct_case_accepts": 0,
+          "correct_cases": 0,
+          "review_on_complete": 0
+        }
+      },
+      "raw_log_sha256": "6f42f05b5d93f4f17c3cae01c120c57c2ced3ab9ff4da9186e78e42051929a94",
+      "result_sha256": "9dda9c26f8edac4779dfb71591bfe90c96b234382a7d7d30263b7550eb31ad89",
+      "native_token_caps": {
+        "stop": 82,
+        "length": 2
+      },
+      "families": {
+        "booking": {
+          "complete_packets": 16,
+          "correct_determinate": 1,
+          "false_accepts": 0
+        },
+        "inventory": {
+          "complete_packets": 16,
+          "correct_determinate": 7,
+          "false_accepts": 8
+        },
+        "escalation": {
+          "complete_packets": 16,
+          "correct_determinate": 7,
+          "false_accepts": 6
+        }
+      }
+    }
+  },
+  "checks": [
+    "Separate SQL evaluator reproduces every private task label.",
+    "Every direct complete-packet label and incomplete twin equivalence class matches its oracle relation.",
+    "No private labels/latent IDs enter any native user prompt; all168frozen prompts/options/model digests match.",
+    "Every raw verdict and aggregate score is recomputed without repair."
+  ],
+  "limits": [
+    "The local adapter and SQLite state are trusted and the source read is transaction-consistent. Digests detect capture changes; they do not authenticate arbitrary forged sources. Typed contracts are authored per schema, not inferred zero-shot.",
+    "Three newly authored families with24logical parameterized pairs. Twin worlds and replay conditions are dependent; no population risk bound or real agent rollout is tested.",
+    "No arbitrary malformed-payload, malicious provenance-capture, real agent-rollout or learned-confidence calibration test is included."
+  ]
+}

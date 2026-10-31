@@ -1,0 +1,13 @@
+.venv*/
+__pycache__/
+*.pyc
+work/reconstructed*/
+work/tmp*/
+results/new*/
+*.sqlite*
+*.safetensors
+*.aux
+*.log
+*.out
+*.bbl
+*.blg

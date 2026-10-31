@@ -1,0 +1,26 @@
+{
+  "name": "gemma4:26b",
+  "model": "gemma4:26b",
+  "modified_at": "2026-10-02T12:40:42.241898921-04:00",
+  "size": 18731025629,
+  "digest": "001e5dafc3c77684c2307ebc6ab8e336e10c9b18eca52acf547d72fc83c3ca8c",
+  "details": {
+    "parent_model": "c4-targeted-20260929-26b/model-q4_K_M.gguf",
+    "format": "gguf",
+    "family": "gemma4",
+    "families": [
+      "gemma4"
+    ],
+    "parameter_size": "25.2B",
+    "quantization_level": "Q4_K_M",
+    "context_length": 262144,
+    "embedding_length": 2816,
+    "runner": "llamacpp"
+  },
+  "capabilities": [
+    "completion",
+    "vision",
+    "tools",
+    "thinking"
+  ]
+}

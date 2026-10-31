@@ -1,0 +1,18 @@
+{
+  "experiment_id": "01",
+  "status": "cpu_preflight_passed",
+  "actual_model_calls": 0,
+  "typed_checks": 84,
+  "typed_mismatches": [],
+  "logical_pairs": 24,
+  "SQLite_worlds": 48,
+  "unique_packets": 84,
+  "channels": {
+    "incomplete": 24,
+    "complete": 48,
+    "invalid_probe": 12
+  },
+  "source_sha256": "654106df6fa8303a4b327bacc6ef065b0f8ef706ccc63f1c575c2083095872bf",
+  "frozen_packets_sha256": "deea198fc83dd5bdbbc4766e0c2b5bdc475b676f2e9caaf8407db538fd8be7e3",
+  "executor": "Saurav K. Aryal, with Codex-assisted implementation and execution."
+}
