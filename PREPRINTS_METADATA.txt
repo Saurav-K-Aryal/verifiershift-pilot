@@ -1,0 +1,6 @@
+Subject: Computer Science and Mathematics
+Topic within Subject: Artificial Intelligence and Machine Learning
+Optional MDPI Topic: AI Agents: Progress, Architecture, and Applications
+Topic URL: https://www.mdpi.com/topics/64gpx50134
+Scope fit: Agent architectures, tool use, safety and evaluation. Classification is a proposed editorial fit, not editor approval.
+Recommended metadata; no submission has been made.

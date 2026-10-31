@@ -51,3 +51,11 @@ The incomplete twin worlds have identical packet bytes and opposite SQL truth. C
 Suggested Preprints.org subject: **Computer Science and Mathematics**; topic within subject: **Artificial Intelligence and Machine Learning**. Optional MDPI collection from the verified local guide: *AI Agents: Progress, Architecture, and Applications*; this is a proposed editorial fit, not approval. Keywords: agent verification, policy shifts, tool evidence, evidence contracts, selective review.
 
 Saurav K. Aryal, Howard University, directed the preliminary experiments. Implementation, execution, analysis and manuscript preparation used Codex assistance. The article's future work concerns versioned public-simulator adapters, typed baselines, semantic-label review, and measured cost/coverage; it makes no claim of a funded award or completed deployment.
+
+## Preprints.org classification
+
+Subject: **Computer Science and Mathematics**. Topic within Subject: **Artificial Intelligence and Machine Learning**. See `PREPRINTS_METADATA.txt` for the optional collection and its scope fit.
+
+## Manuscript downloads
+
+[Compiled PDF](paper.pdf) · [Overleaf ZIP](overleaf.zip). The ZIP contains the editable manuscript, bibliography and figures.
