@@ -194,16 +194,22 @@
     {
       "source": "work/public_repos/verifiershift-pilot/.gitignore",
       "published": ".gitignore",
-      "source_sha256": "e9b8f7db92ca0a70802bde28662e2dfa3717a202b0be86e42def5bdd735d76c1",
-      "published_sha256": "e9b8f7db92ca0a70802bde28662e2dfa3717a202b0be86e42def5bdd735d76c1",
-      "transformation": "none; derived/reproducibility helper or package file"
+      "source_sha256": "08b212320d948b500ac66db8bfe7bdbb442a168948ba164be89fc7ebada75033",
+      "published_sha256": "08b212320d948b500ac66db8bfe7bdbb442a168948ba164be89fc7ebada75033",
+      "transformation": "none; derived/reproducibility helper or package file",
+      "previous_published_sha256": "e9b8f7db92ca0a70802bde28662e2dfa3717a202b0be86e42def5bdd735d76c1",
+      "previous_source_sha256": "e9b8f7db92ca0a70802bde28662e2dfa3717a202b0be86e42def5bdd735d76c1",
+      "release_revision": "Eight-paper release metadata/manuscript refresh; numerical evidence unchanged."
     },
     {
       "source": "outputs/pilot_papers/01_verifiershift/README.md",
       "published": "README.md",
-      "source_sha256": "3161c329c5d9bdea38d7dbde022f42c32f61ab2618e4614c0d82def628b8b391",
-      "published_sha256": "3161c329c5d9bdea38d7dbde022f42c32f61ab2618e4614c0d82def628b8b391",
-      "transformation": "none; derived/reproducibility helper or package file"
+      "source_sha256": "c71dc84f560b002f373c8621ad4be3c74e9c1bfe573f0ee6ad67fdcbf10c9c14",
+      "published_sha256": "c71dc84f560b002f373c8621ad4be3c74e9c1bfe573f0ee6ad67fdcbf10c9c14",
+      "transformation": "none; derived/reproducibility helper or package file",
+      "previous_published_sha256": "3161c329c5d9bdea38d7dbde022f42c32f61ab2618e4614c0d82def628b8b391",
+      "previous_source_sha256": "3161c329c5d9bdea38d7dbde022f42c32f61ab2618e4614c0d82def628b8b391",
+      "release_revision": "Eight-paper release metadata/manuscript refresh; numerical evidence unchanged."
     },
     {
       "source": "outputs/pilot_papers/01_verifiershift/figure_data.json",
@@ -263,10 +269,14 @@
     },
     {
       "source": "outputs/pilot_papers/01_verifiershift/summary.txt",
-      "published": "summary.txt",
-      "source_sha256": "6dabd74b26d58ca1ba3eb3857d75c9f4a17be6065f27b624616e23c63ae1e9aa",
-      "published_sha256": "6dabd74b26d58ca1ba3eb3857d75c9f4a17be6065f27b624616e23c63ae1e9aa",
-      "transformation": "none; derived/reproducibility helper or package file"
+      "published": "SUMMARY.txt",
+      "source_sha256": "d776401610968c7b43b8370244dcdb4343a2ae432d07b838e6f5241e00156848",
+      "published_sha256": "d776401610968c7b43b8370244dcdb4343a2ae432d07b838e6f5241e00156848",
+      "transformation": "none; derived/reproducibility helper or package file",
+      "previous_published_path": "summary.txt",
+      "previous_published_sha256": "6dabd74b26d58ca1ba3eb3857d75c9f4a17be6065f27b624616e23c63ae1e9aa",
+      "previous_source_sha256": "6dabd74b26d58ca1ba3eb3857d75c9f4a17be6065f27b624616e23c63ae1e9aa",
+      "release_revision": "Eight-paper release metadata/manuscript refresh; numerical evidence unchanged."
     },
     {
       "source": "work/public_repos/verifiershift-pilot/verification.txt",
@@ -281,6 +291,22 @@
       "source_sha256": "2f16e1a0c9c3d17611d3c3821dcb6631a64e6cc31c2c9dffcfe42e2789f7909c",
       "published_sha256": "2f16e1a0c9c3d17611d3c3821dcb6631a64e6cc31c2c9dffcfe42e2789f7909c",
       "transformation": "none; derived/reproducibility helper or package file"
+    },
+    {
+      "source": "work/public_repos/verifiershift-pilot/CITATION.cff",
+      "published": "CITATION.cff",
+      "source_sha256": "22ee16effe82770fc5dcac7e6ea6305b28b399c1055c83c4ea28564643b4aa69",
+      "published_sha256": "22ee16effe82770fc5dcac7e6ea6305b28b399c1055c83c4ea28564643b4aa69",
+      "transformation": "none",
+      "kind": "release metadata or manuscript archive/preview"
+    },
+    {
+      "source": "outputs/pilot_papers/01_verifiershift/PREPRINTS_METADATA.txt",
+      "published": "PREPRINTS_METADATA.txt",
+      "source_sha256": "fe1a1793d014245d9f2634d8ace6edce6e962b2762ac4f50033f135ee2c560c8",
+      "published_sha256": "fe1a1793d014245d9f2634d8ace6edce6e962b2762ac4f50033f135ee2c560c8",
+      "transformation": "none",
+      "kind": "release metadata or manuscript archive/preview"
     }
   ]
 }
