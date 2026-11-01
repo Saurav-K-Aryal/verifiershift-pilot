@@ -1,0 +1,421 @@
+{
+  "by_edit": {
+    "always_fresh": {
+      "policy_decision_change": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 31
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 6
+      },
+      "policy_weaken_request": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 31
+      },
+      "source_irrelevant_address": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 31
+      },
+      "source_relevant_owner": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 0
+      },
+      "source_relevant_status": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    },
+    "cached_projection": {
+      "policy_decision_change": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 31
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 6
+      },
+      "policy_weaken_request": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 31
+      },
+      "source_irrelevant_address": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 31
+      },
+      "source_relevant_owner": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 0
+      },
+      "source_relevant_status": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    },
+    "compiled_capsule": {
+      "policy_decision_change": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 31
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 6
+      },
+      "policy_weaken_request": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 31
+      },
+      "source_irrelevant_address": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 31
+      },
+      "source_relevant_owner": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 0
+      },
+      "source_relevant_status": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    },
+    "dependency_validity": {
+      "policy_decision_change": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 31
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 6
+      },
+      "policy_weaken_request": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 31
+      },
+      "source_irrelevant_address": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 31
+      },
+      "source_relevant_owner": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 0
+      },
+      "source_relevant_status": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    },
+    "semantic_z3": {
+      "policy_decision_change": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 31
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 6
+      },
+      "policy_weaken_request": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 31
+      },
+      "source_irrelevant_address": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 31
+      },
+      "source_relevant_owner": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 0
+      },
+      "source_relevant_status": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 31,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 31,
+        "groups": 31,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    }
+  },
+  "compilation": {
+    "policy_decision_change": {
+      "lut_compile_ns": 21250,
+      "solver_setup_ns": 39375
+    },
+    "policy_equivalent": {
+      "lut_compile_ns": 36000,
+      "solver_setup_ns": 1287250
+    },
+    "policy_new_amount_cap_500": {
+      "lut_compile_ns": 21209,
+      "solver_setup_ns": 38708
+    },
+    "policy_weaken_request": {
+      "lut_compile_ns": 23208,
+      "solver_setup_ns": 38167
+    },
+    "source_irrelevant_address": {
+      "lut_compile_ns": 19625,
+      "solver_setup_ns": 28375
+    },
+    "source_relevant_owner": {
+      "lut_compile_ns": 19917,
+      "solver_setup_ns": 27417
+    },
+    "source_relevant_status": {
+      "lut_compile_ns": 20334,
+      "solver_setup_ns": 29416
+    },
+    "unknown_tool_semantics": {
+      "lut_compile_ns": 37125,
+      "solver_setup_ns": 32666
+    },
+    "unsupported_external_risk": {
+      "lut_compile_ns": 20666,
+      "solver_setup_ns": 28792
+    }
+  },
+  "elapsed_seconds": 3.047969102859497,
+  "eligible_task_groups": 31,
+  "exclusions": {
+    "eligible": 31,
+    "native_write_error": 1,
+    "no_order_write": 4,
+    "prefix_tool_error": 4
+  },
+  "family_counts": {
+    "cancel_pending_order": 3,
+    "exchange_delivered_order_items": 8,
+    "modify_pending_order_address": 6,
+    "modify_pending_order_items": 8,
+    "modify_pending_order_payment": 1,
+    "return_delivered_order_items": 5
+  },
+  "files_sha256": {
+    "experiment.py": "b7893f686631424c3ec5aab0bc181521c63fecf4fc07b483bbd39161249a2c49",
+    "protocol": "c3dba8a257f6651028b6ccf4c8074eecaae0581ab33f735294491844c08b6a83",
+    "upstream_db": "413a65160adbdb5fde0ffc0015c49b6d70250b10c18128de169b597af7766765",
+    "upstream_tasks": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+    "upstream_tools": "d0a9afdd44dbb1e7b1b4d19e0acf8ba9e3c99db78f775383a4b63fe5b0ccf52a"
+  },
+  "methods": {
+    "always_fresh": {
+      "correct": 279,
+      "episodes": 279,
+      "false_accepts": 0,
+      "online_median_us": 1.25,
+      "online_total_seconds": 0.000382917,
+      "review": 62,
+      "supported": 217,
+      "supported_correct": 217,
+      "verification_reads": 217
+    },
+    "cached_projection": {
+      "correct": 279,
+      "episodes": 279,
+      "false_accepts": 0,
+      "online_median_us": 0.584,
+      "online_total_seconds": 0.000237744,
+      "review": 62,
+      "supported": 217,
+      "supported_correct": 217,
+      "verification_reads": 62
+    },
+    "compiled_capsule": {
+      "correct": 279,
+      "episodes": 279,
+      "false_accepts": 0,
+      "online_median_us": 9.459,
+      "online_total_seconds": 0.002192114,
+      "review": 62,
+      "supported": 217,
+      "supported_correct": 217,
+      "verification_reads": 93
+    },
+    "dependency_validity": {
+      "correct": 279,
+      "episodes": 279,
+      "false_accepts": 0,
+      "online_median_us": 1.125,
+      "online_total_seconds": 0.000397378,
+      "review": 62,
+      "supported": 217,
+      "supported_correct": 217,
+      "verification_reads": 93
+    },
+    "semantic_z3": {
+      "correct": 279,
+      "episodes": 279,
+      "false_accepts": 0,
+      "online_median_us": 77.917,
+      "online_total_seconds": 0.023221255,
+      "review": 62,
+      "supported": 217,
+      "supported_correct": 217,
+      "verification_reads": 93
+    }
+  },
+  "native_postcondition_pass": 31,
+  "native_write_success": 31,
+  "observed_auth_witness_groups": 16,
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "post_authenticated_session_assumption": true,
+  "protocol_id": "repair01-capsule-v2",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "retention_means": {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 414.0967741935484,
+    "projection_raw_scalar_fields": 6.290322580645161,
+    "raw_bytes": 1393.5806451612902,
+    "raw_scalar_fields": 44.16129032258065
+  },
+  "source_task_groups": 40,
+  "split": "test",
+  "z3": "5.3.3"
+}

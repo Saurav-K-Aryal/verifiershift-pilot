@@ -1,0 +1,10 @@
+{
+  "independent_oracle": "raw public JSON fixture + separately written Boolean/arithmetic implementation",
+  "episodes_checked": 1395,
+  "unique_task_edit_pairs": 279,
+  "task_groups": 31,
+  "errors": [],
+  "all_correct": true,
+  "dependency_solver_compiled_decision_and_read_parity_pairs": 279,
+  "audit_sha256": "f5af9726b43a32bc1dcb330b430d57faf45b154ebaa139245a8dd67ddae84813"
+}

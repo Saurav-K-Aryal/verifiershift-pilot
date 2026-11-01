@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "logical_SQL_worlds": 48,
+  "raw_calls_checked": 168,
+  "models": {
+    "gemma4:26b": {
+      "incomplete": {
+        "packets": 24,
+        "raw_correct": 24,
+        "gated_correct": 24,
+        "invalid_outputs": 0,
+        "raw_accepts": 0,
+        "raw_false_accepts": 0,
+        "raw_unsupported_determinate_decisions": 0
+      },
+      "complete": {
+        "packets": 48,
+        "raw_correct": 34,
+        "gated_correct": 34,
+        "invalid_outputs": 1,
+        "raw_accepts": 24,
+        "raw_false_accepts": 7,
+        "raw_unsupported_determinate_decisions": 0
+      },
+      "invalid_probe": {
+        "packets": 12,
+        "raw_correct": 12,
+        "gated_correct": 12,
+        "invalid_outputs": 0,
+        "raw_accepts": 0,
+        "raw_false_accepts": 0,
+        "raw_unsupported_determinate_decisions": 0
+      }
+    },
+    "qwen3.5:4b": {
+      "incomplete": {
+        "packets": 24,
+        "raw_correct": 24,
+        "gated_correct": 24,
+        "invalid_outputs": 0,
+        "raw_accepts": 0,
+        "raw_false_accepts": 0,
+        "raw_unsupported_determinate_decisions": 0
+      },
+      "complete": {
+        "packets": 48,
+        "raw_correct": 15,
+        "gated_correct": 15,
+        "invalid_outputs": 2,
+        "raw_accepts": 29,
+        "raw_false_accepts": 14,
+        "raw_unsupported_determinate_decisions": 0
+      },
+      "invalid_probe": {
+        "packets": 12,
+        "raw_correct": 10,
+        "gated_correct": 12,
+        "invalid_outputs": 0,
+        "raw_accepts": 2,
+        "raw_false_accepts": 0,
+        "raw_unsupported_determinate_decisions": 2
+      }
+    }
+  }
+}

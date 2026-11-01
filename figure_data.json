@@ -1,89 +1,29 @@
 {
-  "complete_outcome_counts": {
-    "Typed checker": [
-      24,
-      24,
-      0,
-      0,
-      0,
-      0
-    ],
-    "Gemma4:26B": [
-      17,
-      17,
-      7,
-      6,
-      0,
-      1
-    ],
-    "Qwen3.5:4B": [
-      15,
-      0,
-      14,
-      0,
-      17,
-      2
-    ]
+  "study": "restricted-evidence-native-retail-replay",
+  "tasks": 31,
+  "task_edit_pairs": 279,
+  "method_decisions": 1395,
+  "reads": {
+    "always_fresh": 217,
+    "dependency_validity": 93,
+    "cached_projection": 62,
+    "semantic_z3": 93,
+    "compiled_capsule": 93
   },
-  "category_order": [
-    "correct_accept",
-    "correct_reject",
-    "false_accept",
-    "false_reject",
-    "review",
-    "invalid"
-  ],
-  "correct_complete_by_family": {
-    "Typed checker": [
-      16,
-      16,
-      16
-    ],
-    "Gemma4:26B": [
-      8,
-      12,
-      14
-    ],
-    "Qwen3.5:4B": [
-      1,
-      7,
-      7
-    ]
+  "retention_means": {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 414.0967741935484,
+    "projection_raw_scalar_fields": 6.290322580645161,
+    "raw_bytes": 1393.5806451612902,
+    "raw_scalar_fields": 44.16129032258065
   },
-  "family_order": [
-    "booking",
-    "inventory",
-    "escalation"
-  ],
   "sources": [
     {
-      "path": "frozen_packets_and_labels.json",
-      "sha256": "deea198fc83dd5bdbbc4766e0c2b5bdc475b676f2e9caaf8407db538fd8be7e3"
-    },
-    {
-      "path": "private_world_manifest.json",
-      "sha256": "2a688bd4afe4b70a3f0ae7d0ead3eb07dd758a0ba9db9fab51f6a593009443fb"
-    },
-    {
-      "path": "typed_decisions.json",
-      "sha256": "1d38ceb53016c2a023b1251577d07ab313d94df530b7121b045aad5b0ce4fea2"
-    },
-    {
-      "path": "model_gemma4_26b/decisions.json",
-      "sha256": "07b7dd3ba6152d2259e4551424c8fe312aa53e24757c188ca007954500550a48"
-    },
-    {
-      "path": "model_gemma4_26b/result.json",
-      "sha256": "cd220cadc533b710032601e3c8412bc8b8aed7e8d986a5ccebf869dd15b7bc04"
-    },
-    {
-      "path": "model_qwen3_5_4b/decisions.json",
-      "sha256": "49c050df665848c3f5b7ef9fb6bfb67ad0d425ae5ffe87a8a322053ffc25145c"
-    },
-    {
-      "path": "model_qwen3_5_4b/result.json",
-      "sha256": "9dda9c26f8edac4779dfb71591bfe90c96b234382a7d7d30263b7550eb31ad89"
+      "path": "runs/repair01-confirm-v2/summary.json",
+      "sha256": "5087eafae2176e3da75fbf9500a63f5ff9afc3cc30cbfd3464b52967bbab97de"
     }
   ],
-  "generator_sha256": "ae1533123b04fdb7b2358b88d29d621ac443c548e70518f6b0f4f6f98188bbe2"
+  "generator_sha256": "5f45bd0d1cb96aa92611675e61ce5faf79826a0798ac9546c9e13ebd0b1f4754"
 }

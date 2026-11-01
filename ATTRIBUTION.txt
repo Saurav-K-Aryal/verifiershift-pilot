@@ -1,0 +1,5 @@
+New restricted-evidence replay and publication materials: Saurav K. Aryal, Howard University, 2026, prepared with Codex assistance.
+
+The experiment loads unmodified public tau2-bench retail tools, data models and fixtures from Sierra Research, pinned commit da0835f6c67baef58bdda18f2a3b037dfb3a1754, https://github.com/sierra-research/tau2-bench. Upstream is MIT licensed; its notice is reproduced in UPSTREAM_LICENSES/tau2_LICENSE.txt. The full upstream source and Python dependencies are downloaded separately and keep their original licenses. No Amazon customer transactions or real participant records are included. Customer/order identifiers in the recorded replay originate in the public benchmark fixtures.
+
+Earlier authoritative-evidence code and results remain in their original paths and are documented under legacy/authoritative_evidence_20261031/. Third-party works cited in the paper remain the property of their authors. New source is released under the repository LICENSE; upstream notices and licenses continue to apply.

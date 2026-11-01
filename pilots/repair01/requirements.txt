@@ -1,0 +1,9 @@
+pydantic==2.14.1
+z3-solver==5.3.3.0
+loguru==0.7.3
+docstring-parser==0.18.0
+deepdiff==9.1.0
+python-dotenv==1.2.4
+addict==2.4.0
+toml==0.10.2
+pyyaml==6.0.3

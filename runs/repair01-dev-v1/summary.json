@@ -1,0 +1,384 @@
+{
+  "by_edit": {
+    "always_fresh": {
+      "policy_decision_change": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 29
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 9
+      },
+      "policy_weaken_request": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 29
+      },
+      "source_irrelevant_address": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 29
+      },
+      "source_relevant_status": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    },
+    "cached_projection": {
+      "policy_decision_change": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 29
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 49,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_weaken_request": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 29
+      },
+      "source_irrelevant_address": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 29
+      },
+      "source_relevant_status": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    },
+    "compiled_capsule": {
+      "policy_decision_change": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 29
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 29,
+        "true_decisions": 9
+      },
+      "policy_weaken_request": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 29
+      },
+      "source_irrelevant_address": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 29
+      },
+      "source_relevant_status": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 29,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    },
+    "dependency_validity": {
+      "policy_decision_change": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 29
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 9
+      },
+      "policy_weaken_request": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 29
+      },
+      "source_irrelevant_address": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 29
+      },
+      "source_relevant_status": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    },
+    "semantic_z3": {
+      "policy_decision_change": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 29
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 29,
+        "true_decisions": 9
+      },
+      "policy_weaken_request": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 29
+      },
+      "source_irrelevant_address": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 29
+      },
+      "source_relevant_status": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 29,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    }
+  },
+  "compilation": {
+    "policy_decision_change": {
+      "lut_compile_ns": 28542,
+      "solver_setup_ns": 57083
+    },
+    "policy_equivalent": {
+      "lut_compile_ns": 45625,
+      "solver_setup_ns": 1955083
+    },
+    "policy_new_amount_cap_500": {
+      "lut_compile_ns": 27334,
+      "solver_setup_ns": 49916
+    },
+    "policy_weaken_request": {
+      "lut_compile_ns": 30417,
+      "solver_setup_ns": 57542
+    },
+    "source_irrelevant_address": {
+      "lut_compile_ns": 26500,
+      "solver_setup_ns": 39166
+    },
+    "source_relevant_status": {
+      "lut_compile_ns": 27333,
+      "solver_setup_ns": 37167
+    },
+    "unknown_tool_semantics": {
+      "lut_compile_ns": 30416,
+      "solver_setup_ns": 38459
+    },
+    "unsupported_external_risk": {
+      "lut_compile_ns": 26208,
+      "solver_setup_ns": 36084
+    }
+  },
+  "elapsed_seconds": 91.87604093551636,
+  "eligible_task_groups": 58,
+  "exclusions": {
+    "eligible": 58,
+    "native_write_error": 1,
+    "no_order_write": 6,
+    "prefix_tool_error": 9
+  },
+  "family_counts": {
+    "cancel_pending_order": 9,
+    "exchange_delivered_order_items": 17,
+    "modify_pending_order_address": 9,
+    "modify_pending_order_items": 7,
+    "return_delivered_order_items": 16
+  },
+  "files_sha256": {
+    "experiment.py": "147cabb6dff0b2a335813af6223df6ed9f43f86fb44c6a2ad713525afb104657",
+    "protocol": "a9d84b2961ea02b41b5bf70c22341ff1dc59a89dab486b760acd1ce5a8121ceb",
+    "upstream_db": "413a65160adbdb5fde0ffc0015c49b6d70250b10c18128de169b597af7766765",
+    "upstream_tasks": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+    "upstream_tools": "d0a9afdd44dbb1e7b1b4d19e0acf8ba9e3c99db78f775383a4b63fe5b0ccf52a"
+  },
+  "methods": {
+    "always_fresh": {
+      "correct": 464,
+      "episodes": 464,
+      "false_accepts": 0,
+      "online_median_us": 4.5,
+      "online_total_seconds": 0.001692917,
+      "review": 116,
+      "supported": 348,
+      "supported_correct": 348,
+      "verification_reads": 348
+    },
+    "cached_projection": {
+      "correct": 455,
+      "episodes": 464,
+      "false_accepts": 0,
+      "online_median_us": 4.083,
+      "online_total_seconds": 0.001685804,
+      "review": 116,
+      "supported": 348,
+      "supported_correct": 339,
+      "verification_reads": 58
+    },
+    "compiled_capsule": {
+      "correct": 464,
+      "episodes": 464,
+      "false_accepts": 0,
+      "online_median_us": 13.979,
+      "online_total_seconds": 0.00522025,
+      "review": 116,
+      "supported": 348,
+      "supported_correct": 348,
+      "verification_reads": 58
+    },
+    "dependency_validity": {
+      "correct": 464,
+      "episodes": 464,
+      "false_accepts": 0,
+      "online_median_us": 4.5,
+      "online_total_seconds": 0.001810965,
+      "review": 116,
+      "supported": 348,
+      "supported_correct": 348,
+      "verification_reads": 116
+    },
+    "semantic_z3": {
+      "correct": 464,
+      "episodes": 464,
+      "false_accepts": 0,
+      "online_median_us": 203.667,
+      "online_total_seconds": 0.076634333,
+      "review": 116,
+      "supported": 348,
+      "supported_correct": 348,
+      "verification_reads": 58
+    }
+  },
+  "native_postcondition_pass": 58,
+  "native_write_success": 58,
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "protocol_id": "repair01-capsule-v1",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "retention_means": {
+    "capsule_bytes": 506,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 412,
+    "projection_raw_scalar_fields": 6.172413793103448,
+    "raw_bytes": 1386.0689655172414,
+    "raw_scalar_fields": 44.12068965517241
+  },
+  "source_task_groups": 74,
+  "split": "train",
+  "z3": "5.3.3"
+}

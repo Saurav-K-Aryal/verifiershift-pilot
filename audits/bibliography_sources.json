@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-11-01",
+  "primary_sources": [
+    {
+      "url": "https://aclanthology.org/2026.emnlp-industry.75/"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.27672v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20532v2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40578v1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26469v1"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/publication/z3-an-efficient-smt-solver/"
+    },
+    {
+      "url": "https://github.com/sierra-research/tau2-bench/tree/da0835f6c67baef58bdda18f2a3b037dfb3a1754"
+    }
+  ]
+}

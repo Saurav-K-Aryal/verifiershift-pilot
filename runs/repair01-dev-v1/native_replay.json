@@ -1,0 +1,2854 @@
+[
+  {
+    "action": {
+      "action_id": "0_4",
+      "arguments": {
+        "item_ids": [
+          "1151293680",
+          "4983901480"
+        ],
+        "new_item_ids": [
+          "7706410293",
+          "7747408585"
+        ],
+        "order_id": "#W2378156",
+        "payment_method_id": "credit_card_9513926"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": "yusuf_rossi_9620",
+    "capture_bytes": 1435,
+    "capture_raw_scalars": 59,
+    "family": "exchange_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Yusuf",
+          "last_name": "Rossi",
+          "zip": "19122"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W2378156"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "1656367028"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "4896585277"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W2378156",
+    "task_id": "0"
+  },
+  {
+    "action": {
+      "action_id": "1_4",
+      "arguments": {
+        "item_ids": [
+          "4983901480"
+        ],
+        "new_item_ids": [
+          "7747408585"
+        ],
+        "order_id": "#W2378156",
+        "payment_method_id": "credit_card_9513926"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": "yusuf_rossi_9620",
+    "capture_bytes": 1435,
+    "capture_raw_scalars": 59,
+    "family": "exchange_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Yusuf",
+          "last_name": "Rossi",
+          "zip": "19122"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W2378156"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "1656367028"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "4896585277"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W2378156",
+    "task_id": "1"
+  },
+  {
+    "error": "ValueError: Product not found",
+    "excluded": "prefix_tool_error",
+    "family": "get_product_details",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Yusuf",
+          "last_name": "Rossi",
+          "zip": "19122"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      }
+    ],
+    "task_id": "2"
+  },
+  {
+    "error": "ValueError: Product not found",
+    "excluded": "prefix_tool_error",
+    "family": "get_product_details",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Yusuf",
+          "last_name": "Rossi",
+          "zip": "19122"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      }
+    ],
+    "task_id": "3"
+  },
+  {
+    "error": "ValueError: Product not found",
+    "excluded": "prefix_tool_error",
+    "family": "get_product_details",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Yusuf",
+          "last_name": "Rossi",
+          "zip": "19122"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      }
+    ],
+    "task_id": "4"
+  },
+  {
+    "action": {
+      "action_id": "6_5",
+      "arguments": {
+        "item_ids": [
+          "8384507844"
+        ],
+        "new_item_ids": [
+          "7453605304"
+        ],
+        "order_id": "#W6390527",
+        "payment_method_id": "paypal_7644869"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": "mei_kovacs_8020",
+    "capture_bytes": 1065,
+    "capture_raw_scalars": 44,
+    "family": "exchange_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Mei",
+          "last_name": "Kovacs",
+          "zip": "28236"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "mei_kovacs_8020"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W6390527"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "8310926033"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "6817146515"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W6390527",
+    "task_id": "6"
+  },
+  {
+    "action": {
+      "action_id": "7_5",
+      "arguments": {
+        "item_ids": [
+          "8384507844"
+        ],
+        "new_item_ids": [
+          "1569765161"
+        ],
+        "order_id": "#W6390527",
+        "payment_method_id": "paypal_7644869"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": "mei_kovacs_8020",
+    "capture_bytes": 1065,
+    "capture_raw_scalars": 44,
+    "family": "exchange_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Mei",
+          "last_name": "Kovacs",
+          "zip": "28236"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "mei_kovacs_8020"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W6390527"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "8310926033"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "6817146515"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W6390527",
+    "task_id": "7"
+  },
+  {
+    "action": {
+      "action_id": "8_5",
+      "arguments": {
+        "item_ids": [
+          "8384507844"
+        ],
+        "new_item_ids": [
+          "9083642334"
+        ],
+        "order_id": "#W6390527",
+        "payment_method_id": "paypal_7644869"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": "mei_kovacs_8020",
+    "capture_bytes": 1065,
+    "capture_raw_scalars": 44,
+    "family": "exchange_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Mei",
+          "last_name": "Kovacs",
+          "zip": "28236"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "mei_kovacs_8020"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W6390527"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "8310926033"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "6817146515"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W6390527",
+    "task_id": "8"
+  },
+  {
+    "excluded": "no_order_write",
+    "history": [
+      {
+        "arguments": {
+          "email": "mia.garcia2723@example.com"
+        },
+        "name": "find_user_id_by_email",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "mia_garcia_4516"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5490111"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W7387996"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "summary": "The user wants to refund each order to the opposite order's payment method, but the agent cannot help."
+        },
+        "name": "transfer_to_human_agents",
+        "success": true
+      }
+    ],
+    "task_id": "10"
+  },
+  {
+    "action": {
+      "action_id": "11_4",
+      "arguments": {
+        "item_ids": [
+          "4579334072",
+          "1421289881",
+          "6117189161",
+          "4947717507"
+        ],
+        "order_id": "#W5490111",
+        "payment_method_id": "credit_card_3124723"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": "mia_garcia_4516",
+    "capture_bytes": 1266,
+    "capture_raw_scalars": 53,
+    "family": "return_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "email": "mia.garcia2723@example.com"
+        },
+        "name": "find_user_id_by_email",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "mia_garcia_4516"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5490111"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W7387996"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W5490111",
+    "task_id": "11"
+  },
+  {
+    "action": {
+      "action_id": "13_4",
+      "arguments": {
+        "item_ids": [
+          "4579334072",
+          "6117189161",
+          "4947717507"
+        ],
+        "order_id": "#W5490111",
+        "payment_method_id": "credit_card_3124723"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": "mia_garcia_4516",
+    "capture_bytes": 1266,
+    "capture_raw_scalars": 53,
+    "family": "return_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "email": "mia.garcia2723@example.com"
+        },
+        "name": "find_user_id_by_email",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "mia_garcia_4516"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5490111"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W7387996"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W5490111",
+    "task_id": "13"
+  },
+  {
+    "action": {
+      "action_id": "14_4",
+      "arguments": {
+        "item_ids": [
+          "1421289881"
+        ],
+        "order_id": "#W5490111",
+        "payment_method_id": "credit_card_3124723"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": "mia_garcia_4516",
+    "capture_bytes": 1266,
+    "capture_raw_scalars": 53,
+    "family": "return_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "email": "mia.garcia2723@example.com"
+        },
+        "name": "find_user_id_by_email",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "mia_garcia_4516"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5490111"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W7387996"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W5490111",
+    "task_id": "14"
+  },
+  {
+    "action": {
+      "action_id": "15_6",
+      "arguments": {
+        "item_ids": [
+          "1615379700"
+        ],
+        "new_item_ids": [
+          "3613716226"
+        ],
+        "order_id": "#W5199551",
+        "payment_method_id": "paypal_5364164"
+      },
+      "info": null,
+      "name": "modify_pending_order_items"
+    },
+    "authenticated": "fatima_johnson_7581",
+    "capture_bytes": 1284,
+    "capture_raw_scalars": 53,
+    "family": "modify_pending_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Fatima",
+          "last_name": "Johnson",
+          "zip": "78712"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "fatima_johnson_7581"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9389413"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W8665881"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5199551"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "7363354090"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W5199551",
+    "task_id": "15"
+  },
+  {
+    "action": {
+      "action_id": "16_6",
+      "arguments": {
+        "order_id": "#W5199551",
+        "reason": "no longer needed"
+      },
+      "info": null,
+      "name": "cancel_pending_order"
+    },
+    "authenticated": "fatima_johnson_7581",
+    "capture_bytes": 1284,
+    "capture_raw_scalars": 53,
+    "family": "cancel_pending_order",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Fatima",
+          "last_name": "Johnson",
+          "zip": "78712"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "fatima_johnson_7581"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5199551"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W8665881"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9389413"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "expression": "3131.1 + 4777.75 + 367.38"
+        },
+        "name": "calculate",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W5199551",
+    "task_id": "16"
+  },
+  {
+    "action": {
+      "action_id": "19_6",
+      "arguments": {
+        "item_ids": [
+          "2366567022"
+        ],
+        "order_id": "#W2890441",
+        "payment_method_id": "credit_card_1061405"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": "mei_davis_8935",
+    "capture_bytes": 1273,
+    "capture_raw_scalars": 53,
+    "family": "return_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Mei",
+          "last_name": "Davis",
+          "zip": "80217"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "mei_davis_8935"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W2890441"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W1267569"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "2747247837"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "4794339885"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W2890441",
+    "task_id": "19"
+  },
+  {
+    "action": {
+      "action_id": "20_8",
+      "arguments": {
+        "item_ids": [
+          "2366567022",
+          "1340995114",
+          "9791469541",
+          "1763705424"
+        ],
+        "new_item_ids": [
+          "4579334072",
+          "1151293680",
+          "4107812777",
+          "2882812427"
+        ],
+        "order_id": "#W9911714",
+        "payment_method_id": "gift_card_4332117"
+      },
+      "info": null,
+      "name": "modify_pending_order_items"
+    },
+    "authenticated": "ethan_garcia_1261",
+    "capture_bytes": 1180,
+    "capture_raw_scalars": 48,
+    "family": "modify_pending_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Ethan",
+          "last_name": "Garcia",
+          "zip": "80280"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "ethan_garcia_1261"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W4967593"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9911714"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "8310926033"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "1656367028"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "6938111410"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "5149340237"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W9911714",
+    "task_id": "20"
+  },
+  {
+    "action": {
+      "action_id": "21_11",
+      "arguments": {
+        "item_ids": [
+          "9791469541",
+          "1340995114"
+        ],
+        "new_item_ids": [
+          "4107812777",
+          "1421289881"
+        ],
+        "order_id": "#W9911714",
+        "payment_method_id": "gift_card_4332117"
+      },
+      "info": null,
+      "name": "modify_pending_order_items"
+    },
+    "authenticated": "ethan_garcia_1261",
+    "capture_bytes": 1180,
+    "capture_raw_scalars": 48,
+    "family": "modify_pending_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Ethan",
+          "last_name": "Garcia",
+          "zip": "80280"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "ethan_garcia_1261"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W4967593"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9911714"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5733668"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "item_id": "4107812777"
+        },
+        "name": "get_item_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "item_id": "1421289881"
+        },
+        "name": "get_item_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "1656367028"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "item_id": "4107812777"
+        },
+        "name": "get_item_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "6938111410"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "expression": "155.33 - 147.05 + 268.77 - 235.13"
+        },
+        "name": "calculate",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W9911714",
+    "task_id": "21"
+  },
+  {
+    "action": {
+      "action_id": "22_5",
+      "arguments": {
+        "address1": "101 Highway",
+        "address2": "",
+        "city": "New York",
+        "country": "USA",
+        "order_id": "#W9911714",
+        "state": "NY",
+        "zip": "10001"
+      },
+      "info": null,
+      "name": "modify_pending_order_address"
+    },
+    "authenticated": "ethan_garcia_1261",
+    "capture_bytes": 1180,
+    "capture_raw_scalars": 48,
+    "family": "modify_pending_order_address",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Ethan",
+          "last_name": "Garcia",
+          "zip": "80280"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "address1": "101 Highway",
+          "address2": "",
+          "city": "New York",
+          "country": "USA",
+          "state": "NY",
+          "user_id": "ethan_garcia_1261",
+          "zip": "10001"
+        },
+        "name": "modify_user_address",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W4967593"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9911714"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5733668"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W9911714",
+    "task_id": "22"
+  },
+  {
+    "action": {
+      "action_id": "23_7",
+      "arguments": {
+        "item_ids": [
+          "3358616356"
+        ],
+        "new_item_ids": [
+          "8573379326"
+        ],
+        "order_id": "#W3947049",
+        "payment_method_id": "credit_card_7901829"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": "sofia_hernandez_5364",
+    "capture_bytes": 732,
+    "capture_raw_scalars": 28,
+    "family": "exchange_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Sofia",
+          "last_name": "Hernandez",
+          "zip": "98193"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "sofia_hernandez_5364"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W3561391"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W6876713"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9609649"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W3947049"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "7765186836"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W3947049",
+    "task_id": "23"
+  },
+  {
+    "excluded": "no_order_write",
+    "history": [],
+    "task_id": "24"
+  },
+  {
+    "excluded": "no_order_write",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Isabella",
+          "last_name": "Johansson",
+          "zip": "32286"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "isabella_johansson_2152"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W3792453"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W7181492"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5565470"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W2575533"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "task_id": "25"
+  },
+  {
+    "action": {
+      "action_id": "28_6",
+      "arguments": {
+        "item_ids": [
+          "4293355847"
+        ],
+        "order_id": "#W3792453",
+        "payment_method_id": "paypal_3024827"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": "isabella_johansson_2152",
+    "capture_bytes": 749,
+    "capture_raw_scalars": 28,
+    "family": "return_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Isabella",
+          "last_name": "Johansson",
+          "zip": "32286"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "isabella_johansson_2152"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W3792453"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W7181492"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5565470"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W2575533"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W3792453",
+    "task_id": "28"
+  },
+  {
+    "action": {
+      "action_id": "29_4",
+      "arguments": {
+        "item_ids": [
+          "4293355847"
+        ],
+        "new_item_ids": [
+          "8176740019"
+        ],
+        "order_id": "#W3792453",
+        "payment_method_id": "paypal_3024827"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": "isabella_johansson_2152",
+    "capture_bytes": 749,
+    "capture_raw_scalars": 28,
+    "family": "exchange_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Isabella",
+          "last_name": "Johansson",
+          "zip": "32286"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "isabella_johansson_2152"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W3792453"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "1968349452"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W3792453",
+    "task_id": "29"
+  },
+  {
+    "action": {
+      "action_id": "30_6",
+      "arguments": {
+        "item_ids": [
+          "3788616824"
+        ],
+        "order_id": "#W2692684",
+        "payment_method_id": "gift_card_7711863"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": "olivia_lopez_3865",
+    "capture_bytes": 735,
+    "capture_raw_scalars": 28,
+    "family": "return_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Olivia",
+          "last_name": "Lopez",
+          "zip": "76171"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "olivia_lopez_3865"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9319364"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9373487"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W2692684"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "8024098596"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W2692684",
+    "task_id": "30"
+  },
+  {
+    "action": {
+      "action_id": "31_8",
+      "arguments": {
+        "order_id": "#W9373487",
+        "reason": "no longer needed"
+      },
+      "info": null,
+      "name": "cancel_pending_order"
+    },
+    "authenticated": "olivia_lopez_3865",
+    "capture_bytes": 684,
+    "capture_raw_scalars": 26,
+    "family": "cancel_pending_order",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Olivia",
+          "last_name": "Lopez",
+          "zip": "76171"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "olivia_lopez_3865"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9319364"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9373487"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W2692684"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5481803"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W7449508"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9373487"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W9373487",
+    "task_id": "31"
+  },
+  {
+    "action": {
+      "action_id": "34_5",
+      "arguments": {
+        "address1": "224 Elm Street",
+        "address2": "Suite 491",
+        "city": "New York",
+        "country": "USA",
+        "order_id": "#W1845024",
+        "state": "NY",
+        "zip": "10108"
+      },
+      "info": null,
+      "name": "modify_pending_order_address"
+    },
+    "authenticated": "noah_patel_6952",
+    "capture_bytes": 1332,
+    "capture_raw_scalars": 55,
+    "family": "modify_pending_order_address",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Noah",
+          "last_name": "Patel",
+          "zip": "10108"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "noah_patel_6952"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W6111398"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W7043598"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W1845024"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W1845024",
+    "task_id": "34"
+  },
+  {
+    "error": "ValueError: User not found",
+    "excluded": "prefix_tool_error",
+    "family": "find_user_id_by_email",
+    "history": [],
+    "task_id": "35"
+  },
+  {
+    "error": "ValueError: User not found",
+    "excluded": "prefix_tool_error",
+    "family": "find_user_id_by_email",
+    "history": [],
+    "task_id": "37"
+  },
+  {
+    "action": {
+      "action_id": "41_4",
+      "arguments": {
+        "address1": "445 Maple Drive",
+        "address2": "Suite 394",
+        "city": "Fort Worth",
+        "country": "USA",
+        "order_id": "#W9583042",
+        "state": "TX",
+        "zip": "76165"
+      },
+      "info": null,
+      "name": "modify_pending_order_address"
+    },
+    "authenticated": "mei_patel_7272",
+    "capture_bytes": 1147,
+    "capture_raw_scalars": 47,
+    "family": "modify_pending_order_address",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Mei",
+          "last_name": "Patel",
+          "zip": "76165"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "mei_patel_7272"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9583042"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W4082615"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W9583042",
+    "task_id": "41"
+  },
+  {
+    "excluded": "no_order_write",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Lucas",
+          "last_name": "Santos",
+          "zip": "80239"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "lucas_santos_6600"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W1588712"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W7895761"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "address1": "943 Maple Drive",
+          "address2": "Suite 356",
+          "city": "Chicago",
+          "country": "USA",
+          "state": "IL",
+          "user_id": "lucas_santos_6600",
+          "zip": "60621"
+        },
+        "name": "modify_user_address",
+        "success": true
+      }
+    ],
+    "task_id": "43"
+  },
+  {
+    "action": {
+      "action_id": "44_4",
+      "arguments": {
+        "item_ids": [
+          "9190635437"
+        ],
+        "new_item_ids": [
+          "5320792178"
+        ],
+        "order_id": "#W9300146",
+        "payment_method_id": "gift_card_7245904"
+      },
+      "info": null,
+      "name": "modify_pending_order_items"
+    },
+    "authenticated": "aarav_anderson_8794",
+    "capture_bytes": 680,
+    "capture_raw_scalars": 26,
+    "family": "modify_pending_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Aarav",
+          "last_name": "Anderson",
+          "zip": "19031"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9300146"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "6817146515"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "expression": "135.24 - 153.23"
+        },
+        "name": "calculate",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W9300146",
+    "task_id": "44"
+  },
+  {
+    "error": "ValueError: Order not found",
+    "excluded": "prefix_tool_error",
+    "family": "get_order_details",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Daiki",
+          "last_name": "Johnson",
+          "zip": "80273"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      }
+    ],
+    "task_id": "46"
+  },
+  {
+    "error": "ValueError: Order not found",
+    "excluded": "prefix_tool_error",
+    "family": "get_order_details",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Daiki",
+          "last_name": "Johnson",
+          "zip": "80273"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      }
+    ],
+    "task_id": "47"
+  },
+  {
+    "action": {
+      "action_id": "48_5",
+      "arguments": {
+        "item_ids": [
+          "9534205511"
+        ],
+        "order_id": "#W9502127",
+        "payment_method_id": "paypal_2433177"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": "daiki_johnson_9523",
+    "capture_bytes": 1502,
+    "capture_raw_scalars": 61,
+    "family": "return_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Daiki",
+          "last_name": "Johnson",
+          "zip": "80273"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "daiki_johnson_9523"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W1436802"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5282037"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W9502127"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W9502127",
+    "task_id": "48"
+  },
+  {
+    "excluded": "no_order_write",
+    "history": [
+      {
+        "arguments": {
+          "summary": "The user urgently needs to undo a cancellation of an order and insists on receiving the items from the initial order as soon as possible. The user acknowledges the policy but requests exceptional measures due to the urgency of the situation."
+        },
+        "name": "transfer_to_human_agents",
+        "success": true
+      }
+    ],
+    "task_id": "50"
+  },
+  {
+    "action": {
+      "action_id": "52_4",
+      "arguments": {
+        "item_ids": [
+          "5996159312"
+        ],
+        "new_item_ids": [
+          "9228757377"
+        ],
+        "order_id": "#W4689314",
+        "payment_method_id": "paypal_8194385"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": "sofia_li_9219",
+    "capture_bytes": 737,
+    "capture_raw_scalars": 28,
+    "family": "exchange_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Sofia",
+          "last_name": "Li",
+          "zip": "78260"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "sofia_li_9219"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W4689314"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "8940227892"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W4689314",
+    "task_id": "52"
+  },
+  {
+    "error": "ValueError: User not found",
+    "excluded": "prefix_tool_error",
+    "family": "find_user_id_by_email",
+    "history": [],
+    "task_id": "54"
+  },
+  {
+    "excluded": "no_order_write",
+    "history": [],
+    "task_id": "57"
+  },
+  {
+    "action": {
+      "action_id": "58_5",
+      "arguments": {
+        "item_ids": [
+          "7441167885",
+          "3478699712"
+        ],
+        "new_item_ids": [
+          "3815173328",
+          "6017636844"
+        ],
+        "order_id": "#W5838674",
+        "payment_method_id": "gift_card_9368765"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": "ivan_hernandez_6923",
+    "capture_bytes": 1474,
+    "capture_raw_scalars": 62,
+    "family": "exchange_delivered_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Ivan",
+          "last_name": "Hernandez",
+          "zip": "92133"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "ivan_hernandez_6923"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5838674"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "4354588079"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "4760268021"
+        },
+        "name": "get_product_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W5838674",
+    "task_id": "58"
+  },
+  {
+    "action": {
+      "action_id": "59_3",
+      "arguments": {
+        "order_id": "#W8268610",
+        "reason": "no longer needed"
+      },
+      "info": null,
+      "name": "cancel_pending_order"
+    },
+    "authenticated": "yusuf_taylor_7149",
+    "capture_bytes": 678,
+    "capture_raw_scalars": 26,
+    "family": "cancel_pending_order",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Yusuf",
+          "last_name": "Taylor",
+          "zip": "95154"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W2702727"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W8268610"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W8268610",
+    "task_id": "59"
+  },
+  {
+    "action": {
+      "action_id": "63_6",
+      "arguments": {
+        "item_ids": [
+          "3254583681"
+        ],
+        "new_item_ids": [
+          "2635605237"
+        ],
+        "order_id": "#W5061109",
+        "payment_method_id": "paypal_3742148"
+      },
+      "info": null,
+      "name": "modify_pending_order_items"
+    },
+    "authenticated": "chen_johnson_4204",
+    "capture_bytes": 1200,
+    "capture_raw_scalars": 48,
+    "family": "modify_pending_order_items",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Chen",
+          "last_name": "Johnson",
+          "zip": "77004"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "chen_johnson_4204"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5797164"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W5061109"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "product_id": "4768869376"
+        },
+        "name": "get_product_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "expression": "1319.43 - 302.67 + 271.89"
+        },
+        "name": "calculate",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W5061109",
+    "task_id": "63"
+  },
+  {
+    "action": {
+      "action_id": "66_4",
+      "arguments": {
+        "order_id": "#W3361211",
+        "reason": "no longer needed"
+      },
+      "info": null,
+      "name": "cancel_pending_order"
+    },
+    "authenticated": "aarav_lee_1982",
+    "capture_bytes": 1180,
+    "capture_raw_scalars": 48,
+    "family": "cancel_pending_order",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Aarav",
+          "last_name": "Lee",
+          "zip": "85025"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "aarav_lee_1982"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W3361211"
+        },
+        "name": "get_order_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W3586556"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W3361211",
+    "task_id": "66"
+  },
+  {
+    "error": "ValueError: User not found",
+    "excluded": "prefix_tool_error",
+    "family": "find_user_id_by_name_zip",
+    "history": [],
+    "task_id": "67"
+  },
+  {
+    "action": {
+      "action_id": "69_3",
+      "arguments": {
+        "order_id": "#W2417020",
+        "reason": "no longer needed"
+      },
+      "info": null,
+      "name": "cancel_pending_order"
+    },
+    "authenticated": "emma_smith_8564",
+    "capture_bytes": 714,
+    "capture_raw_scalars": 28,
+    "family": "cancel_pending_order",
+    "history": [
+      {
+        "arguments": {
+          "first_name": "Emma",
+          "last_name": "Smith",
+          "zip": "10192"
+        },
+        "name": "find_user_id_by_name_zip",
+        "success": true
+      },
+      {
+        "arguments": {
+          "user_id": "emma_smith_8564"
+        },
+        "name": "get_user_details",
+        "success": true
+      },
+      {
+        "arguments": {
+          "order_id": "#W2417020"
+        },
+        "name": "get_order_details",
+        "success": true
+      }
+    ],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W2417020",
+    "task_id": "69"
+  },
+  {
+    "action": {
+      "action_id": "72_0",
+      "arguments": {
+        "address1": "159 Hickory Lane",
+        "address2": "Suite 995",
+        "city": "Charlotte",
+        "country": "USA",
+        "order_id": "#W5270061",
+        "state": "NC",
+        "zip": "28243"
+      },
+      "info": null,
+      "name": "modify_pending_order_address"
+    },
+    "authenticated": null,
+    "capture_bytes": 1028,
+    "capture_raw_scalars": 41,
+    "family": "modify_pending_order_address",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W5270061",
+    "task_id": "72"
+  },
+  {
+    "action": {
+      "action_id": "73_0",
+      "arguments": {
+        "item_ids": [
+          "7228247242",
+          "2698416822",
+          "8098621301",
+          "3320557165"
+        ],
+        "order_id": "#W5272531",
+        "payment_method_id": "credit_card_6824399"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1461,
+    "capture_raw_scalars": 60,
+    "family": "return_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W5272531",
+    "task_id": "73"
+  },
+  {
+    "action": {
+      "action_id": "75_0",
+      "arguments": {
+        "item_ids": [
+          "8555936349"
+        ],
+        "new_item_ids": [
+          "4063058357"
+        ],
+        "order_id": "#W6908222",
+        "payment_method_id": "paypal_4518393"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1257,
+    "capture_raw_scalars": 52,
+    "family": "exchange_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W6908222",
+    "task_id": "75"
+  },
+  {
+    "action": {
+      "action_id": "76_0",
+      "arguments": {
+        "order_id": "#W8367380",
+        "reason": "ordered by mistake"
+      },
+      "info": null,
+      "name": "cancel_pending_order"
+    },
+    "authenticated": null,
+    "capture_bytes": 998,
+    "capture_raw_scalars": 40,
+    "family": "cancel_pending_order",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W8367380",
+    "task_id": "76"
+  },
+  {
+    "action": {
+      "action_id": "78_0",
+      "arguments": {
+        "address1": "380 Maple Drive",
+        "address2": "Suite 960",
+        "city": "San Diego",
+        "country": "USA",
+        "order_id": "#W5056519",
+        "state": "CA",
+        "zip": "92101"
+      },
+      "info": null,
+      "name": "modify_pending_order_address"
+    },
+    "authenticated": null,
+    "capture_bytes": 682,
+    "capture_raw_scalars": 26,
+    "family": "modify_pending_order_address",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W5056519",
+    "task_id": "78"
+  },
+  {
+    "action": {
+      "action_id": "80_0",
+      "arguments": {
+        "item_ids": [
+          "5047954489"
+        ],
+        "new_item_ids": [
+          "9354168549"
+        ],
+        "order_id": "#W7209932",
+        "payment_method_id": "gift_card_2611937"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 929,
+    "capture_raw_scalars": 38,
+    "family": "exchange_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W7209932",
+    "task_id": "80"
+  },
+  {
+    "action": {
+      "action_id": "81_0",
+      "arguments": {
+        "order_id": "#W3289292",
+        "reason": "no longer needed"
+      },
+      "info": null,
+      "name": "cancel_pending_order"
+    },
+    "authenticated": null,
+    "capture_bytes": 985,
+    "capture_raw_scalars": 39,
+    "family": "cancel_pending_order",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W3289292",
+    "task_id": "81"
+  },
+  {
+    "action": {
+      "action_id": "82_0",
+      "arguments": {
+        "item_ids": [
+          "5952720925",
+          "9973034634",
+          "7381052709",
+          "6065192424"
+        ],
+        "order_id": "#W9571698",
+        "payment_method_id": "gift_card_7250692"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1250,
+    "capture_raw_scalars": 53,
+    "family": "return_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W9571698",
+    "task_id": "82"
+  },
+  {
+    "action": {
+      "action_id": "83_0",
+      "arguments": {
+        "item_ids": [
+          "6065192424"
+        ],
+        "order_id": "#W9571698",
+        "payment_method_id": "gift_card_7250692"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1250,
+    "capture_raw_scalars": 53,
+    "family": "return_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W9571698",
+    "task_id": "83"
+  },
+  {
+    "action": {
+      "action_id": "84_0",
+      "arguments": {
+        "item_ids": [
+          "6065192424"
+        ],
+        "order_id": "#W9571698",
+        "payment_method_id": "gift_card_7250692"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1250,
+    "capture_raw_scalars": 53,
+    "family": "return_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W9571698",
+    "task_id": "84"
+  },
+  {
+    "action": {
+      "action_id": "85_0",
+      "arguments": {
+        "item_ids": [
+          "9385662952"
+        ],
+        "new_item_ids": [
+          "8733974883"
+        ],
+        "order_id": "#W2466703",
+        "payment_method_id": "paypal_7529813"
+      },
+      "info": null,
+      "name": "modify_pending_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 965,
+    "capture_raw_scalars": 40,
+    "family": "modify_pending_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W2466703",
+    "task_id": "85"
+  },
+  {
+    "action": {
+      "action_id": "87_0",
+      "arguments": {
+        "address1": "565 Maple Drive",
+        "address2": "Suite 501",
+        "city": "Washington",
+        "country": "USA",
+        "order_id": "#W2166301",
+        "state": "DC",
+        "zip": "20307"
+      },
+      "info": null,
+      "name": "modify_pending_order_address"
+    },
+    "authenticated": null,
+    "capture_bytes": 990,
+    "capture_raw_scalars": 41,
+    "family": "modify_pending_order_address",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W2166301",
+    "task_id": "87"
+  },
+  {
+    "action": {
+      "action_id": "88_0",
+      "arguments": {
+        "order_id": "#W8835847",
+        "reason": "ordered by mistake"
+      },
+      "info": null,
+      "name": "cancel_pending_order"
+    },
+    "authenticated": null,
+    "capture_bytes": 998,
+    "capture_raw_scalars": 41,
+    "family": "cancel_pending_order",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W8835847",
+    "task_id": "88"
+  },
+  {
+    "action": {
+      "action_id": "89_0",
+      "arguments": {
+        "item_ids": [
+          "9690244451"
+        ],
+        "order_id": "#W4680753",
+        "payment_method_id": "paypal_2417743"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1062,
+    "capture_raw_scalars": 44,
+    "family": "return_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W4680753",
+    "task_id": "89"
+  },
+  {
+    "action": {
+      "action_id": "91_0",
+      "arguments": {
+        "item_ids": [
+          "4545791457",
+          "3098764622",
+          "1631806422"
+        ],
+        "order_id": "#W7553978",
+        "payment_method_id": "credit_card_5902940"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1265,
+    "capture_raw_scalars": 52,
+    "family": "return_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W7553978",
+    "task_id": "91"
+  },
+  {
+    "action": {
+      "action_id": "92_0",
+      "arguments": {
+        "item_ids": [
+          "4545791457",
+          "3098764622",
+          "1631806422"
+        ],
+        "order_id": "#W7553978",
+        "payment_method_id": "credit_card_5902940"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1265,
+    "capture_raw_scalars": 52,
+    "family": "return_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W7553978",
+    "task_id": "92"
+  },
+  {
+    "action": {
+      "action_id": "93_0",
+      "arguments": {
+        "item_ids": [
+          "2216662955"
+        ],
+        "new_item_ids": [
+          "9844888101"
+        ],
+        "order_id": "#W4073673",
+        "payment_method_id": "credit_card_3677959"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1329,
+    "capture_raw_scalars": 56,
+    "family": "exchange_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W4073673",
+    "task_id": "93"
+  },
+  {
+    "action": {
+      "action_id": "96_0",
+      "arguments": {
+        "item_ids": [
+          "3478699712"
+        ],
+        "new_item_ids": [
+          "9844888101"
+        ],
+        "order_id": "#W2905754",
+        "payment_method_id": "credit_card_3677959"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1486,
+    "capture_raw_scalars": 63,
+    "family": "exchange_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W2905754",
+    "task_id": "95"
+  },
+  {
+    "action": {
+      "action_id": "97_0",
+      "arguments": {
+        "address1": "476 Maple Drive",
+        "address2": "Suite 432",
+        "city": "New York",
+        "country": "USA",
+        "order_id": "#W6750959",
+        "state": "NY",
+        "zip": "10093"
+      },
+      "info": null,
+      "name": "modify_pending_order_address"
+    },
+    "authenticated": null,
+    "capture_bytes": 860,
+    "capture_raw_scalars": 33,
+    "family": "modify_pending_order_address",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W6750959",
+    "task_id": "96"
+  },
+  {
+    "action": {
+      "action_id": "99_0",
+      "arguments": {
+        "item_ids": [
+          "5996159312"
+        ],
+        "new_item_ids": [
+          "8363011723"
+        ],
+        "order_id": "#W4689314",
+        "payment_method_id": "credit_card_8105988"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 737,
+    "capture_raw_scalars": 28,
+    "family": "exchange_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W4689314",
+    "task_id": "98"
+  },
+  {
+    "action": {
+      "action_id": "100_0",
+      "arguments": {
+        "item_ids": [
+          "5996159312"
+        ],
+        "new_item_ids": [
+          "8363011723"
+        ],
+        "order_id": "#W4689314",
+        "payment_method_id": "credit_card_3951670"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 737,
+    "capture_raw_scalars": 28,
+    "family": "exchange_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W4689314",
+    "task_id": "99"
+  },
+  {
+    "action": {
+      "action_id": "104_0",
+      "arguments": {
+        "item_ids": [
+          "4900661478",
+          "3614853563"
+        ],
+        "order_id": "#W6239298",
+        "payment_method_id": "credit_card_2112420"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1253,
+    "capture_raw_scalars": 52,
+    "family": "return_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W6239298",
+    "task_id": "103"
+  },
+  {
+    "action": {
+      "action_id": "105_0",
+      "arguments": {
+        "item_ids": [
+          "8479046075"
+        ],
+        "order_id": "#W8660475",
+        "payment_method_id": "credit_card_2112420"
+      },
+      "info": null,
+      "name": "return_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1449,
+    "capture_raw_scalars": 61,
+    "family": "return_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W8660475",
+    "task_id": "104"
+  },
+  {
+    "error": "ValueError: Insufficient gift card balance to pay for the price difference",
+    "excluded": "native_write_error",
+    "family": "exchange_delivered_order_items",
+    "history": [],
+    "task_id": "105"
+  },
+  {
+    "action": {
+      "action_id": "107_0",
+      "arguments": {
+        "item_ids": [
+          "9354168549"
+        ],
+        "new_item_ids": [
+          "2060066974"
+        ],
+        "order_id": "#W3388163",
+        "payment_method_id": "paypal_5334408"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 1465,
+    "capture_raw_scalars": 61,
+    "family": "exchange_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W3388163",
+    "task_id": "106"
+  },
+  {
+    "action": {
+      "action_id": "108_0",
+      "arguments": {
+        "item_ids": [
+          "1615379700"
+        ],
+        "new_item_ids": [
+          "8106223139"
+        ],
+        "order_id": "#W1304208",
+        "payment_method_id": "paypal_1679017"
+      },
+      "info": null,
+      "name": "exchange_delivered_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 723,
+    "capture_raw_scalars": 28,
+    "family": "exchange_delivered_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W1304208",
+    "task_id": "107"
+  },
+  {
+    "action": {
+      "action_id": "110_0",
+      "arguments": {
+        "address1": "592 Elm Avenue",
+        "address2": "Suite 978",
+        "city": "Houston",
+        "country": "USA",
+        "order_id": "#W1603792",
+        "state": "TX",
+        "zip": "77242"
+      },
+      "info": null,
+      "name": "modify_pending_order_address"
+    },
+    "authenticated": null,
+    "capture_bytes": 1269,
+    "capture_raw_scalars": 54,
+    "family": "modify_pending_order_address",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W1603792",
+    "task_id": "109"
+  },
+  {
+    "action": {
+      "action_id": "111_0",
+      "arguments": {
+        "address1": "760 Elm Avenue",
+        "address2": "Suite 564",
+        "city": "Houston",
+        "country": "USA",
+        "order_id": "#W1092119",
+        "state": "TX",
+        "zip": "77034"
+      },
+      "info": null,
+      "name": "modify_pending_order_address"
+    },
+    "authenticated": null,
+    "capture_bytes": 685,
+    "capture_raw_scalars": 26,
+    "family": "modify_pending_order_address",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W1092119",
+    "task_id": "110"
+  },
+  {
+    "action": {
+      "action_id": "113_0",
+      "arguments": {
+        "item_ids": [
+          "1355937109"
+        ],
+        "new_item_ids": [
+          "9949163720"
+        ],
+        "order_id": "#W9810810",
+        "payment_method_id": "gift_card_7252880"
+      },
+      "info": null,
+      "name": "modify_pending_order_items"
+    },
+    "authenticated": null,
+    "capture_bytes": 971,
+    "capture_raw_scalars": 39,
+    "family": "modify_pending_order_items",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W9810810",
+    "task_id": "112"
+  },
+  {
+    "action": {
+      "action_id": "114_0",
+      "arguments": {
+        "order_id": "#W5056519",
+        "reason": "ordered by mistake"
+      },
+      "info": null,
+      "name": "cancel_pending_order"
+    },
+    "authenticated": null,
+    "capture_bytes": 682,
+    "capture_raw_scalars": 26,
+    "family": "cancel_pending_order",
+    "history": [],
+    "native_postcondition": true,
+    "native_write_success": true,
+    "order_id": "#W5056519",
+    "task_id": "113"
+  }
+]

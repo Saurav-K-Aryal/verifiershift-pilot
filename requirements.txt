@@ -1,2 +1,2 @@
-# Experiment/verification use standard Python only. Figures require:
-matplotlib==3.11.2
+# Minimal frozen native-tool replay environment (Python 3.12+).
+-r pilots/repair01/requirements.txt

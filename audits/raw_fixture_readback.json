@@ -1,0 +1,73 @@
+{
+  "audit": "Reviewer independent raw JSON arithmetic; no author oracle function imported.",
+  "source_task_groups": 40,
+  "eligible_tasks": 31,
+  "unique_orders": 28,
+  "unique_callers": 25,
+  "development_shared_orders": 13,
+  "confirmation_tasks_with_development_shared_order": 15,
+  "exclusions": {
+    "eligible": 31,
+    "no_order_write": 4,
+    "prefix_tool_error": 4,
+    "native_write_error": 1
+  },
+  "native_postconditions": 31,
+  "unique_task_edit_pairs": 279,
+  "episodes": 1395,
+  "methods": {
+    "always_fresh": {
+      "episodes": 279,
+      "supported": 217,
+      "reviews": 62,
+      "reads": 217,
+      "false_accepts": 0
+    },
+    "dependency_validity": {
+      "episodes": 279,
+      "supported": 217,
+      "reviews": 62,
+      "reads": 93,
+      "false_accepts": 0
+    },
+    "cached_projection": {
+      "episodes": 279,
+      "supported": 217,
+      "reviews": 62,
+      "reads": 62,
+      "false_accepts": 0
+    },
+    "semantic_z3": {
+      "episodes": 279,
+      "supported": 217,
+      "reviews": 62,
+      "reads": 93,
+      "false_accepts": 0
+    },
+    "compiled_capsule": {
+      "episodes": 279,
+      "supported": 217,
+      "reviews": 62,
+      "reads": 93,
+      "false_accepts": 0
+    }
+  },
+  "ordinary_dependency_solver_compiled_full_parity_pairs": 279,
+  "five_methods_per_pair": true,
+  "freeze_hash_checks": {
+    "pilots/repair01/experiment.py": true,
+    "pilots/repair01/audit.py": true,
+    "work/repair01_20261101/protocol_v2.json": true
+  },
+  "retention_means": {
+    "capsule_bytes": 505.0,
+    "capsule_predicate_bits": 4.0,
+    "capsule_raw_scalar_fields": 0.0,
+    "projection_bytes": 414.0967741935484,
+    "projection_raw_scalar_fields": 6.290322580645161,
+    "raw_bytes": 1393.5806451612902,
+    "raw_scalar_fields": 44.16129032258065
+  },
+  "errors": [],
+  "limitation": "Task-level provider holdout shares source records with development. Four trusted predicate bits are not a privacy guarantee, full policy proof, or actor-success metric."
+}

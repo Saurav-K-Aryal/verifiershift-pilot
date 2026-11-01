@@ -1,0 +1,582 @@
+[
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 437,
+    "projection_raw_scalar_fields": 8,
+    "raw_bytes": 1738,
+    "raw_scalar_fields": 59,
+    "task_id": "0"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 437,
+    "projection_raw_scalar_fields": 8,
+    "raw_bytes": 1738,
+    "raw_scalar_fields": 59,
+    "task_id": "1"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 409,
+    "projection_raw_scalar_fields": 6,
+    "raw_bytes": 1368,
+    "raw_scalar_fields": 44,
+    "task_id": "6"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 409,
+    "projection_raw_scalar_fields": 6,
+    "raw_bytes": 1368,
+    "raw_scalar_fields": 44,
+    "task_id": "7"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 409,
+    "projection_raw_scalar_fields": 6,
+    "raw_bytes": 1368,
+    "raw_scalar_fields": 44,
+    "task_id": "8"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 423,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1569,
+    "raw_scalar_fields": 53,
+    "task_id": "11"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 423,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1569,
+    "raw_scalar_fields": 53,
+    "task_id": "13"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 423,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1569,
+    "raw_scalar_fields": 53,
+    "task_id": "14"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 437,
+    "projection_raw_scalar_fields": 8,
+    "raw_bytes": 1587,
+    "raw_scalar_fields": 53,
+    "task_id": "15"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 437,
+    "projection_raw_scalar_fields": 8,
+    "raw_bytes": 1587,
+    "raw_scalar_fields": 53,
+    "task_id": "16"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 421,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1576,
+    "raw_scalar_fields": 53,
+    "task_id": "19"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 422,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1483,
+    "raw_scalar_fields": 48,
+    "task_id": "20"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 422,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1483,
+    "raw_scalar_fields": 48,
+    "task_id": "21"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 422,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1483,
+    "raw_scalar_fields": 48,
+    "task_id": "22"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 388,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 1035,
+    "raw_scalar_fields": 28,
+    "task_id": "23"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 390,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 1052,
+    "raw_scalar_fields": 28,
+    "task_id": "28"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 390,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 1052,
+    "raw_scalar_fields": 28,
+    "task_id": "29"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 385,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 1038,
+    "raw_scalar_fields": 28,
+    "task_id": "30"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 383,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 987,
+    "raw_scalar_fields": 26,
+    "task_id": "31"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 434,
+    "projection_raw_scalar_fields": 8,
+    "raw_bytes": 1635,
+    "raw_scalar_fields": 55,
+    "task_id": "34"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 420,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1450,
+    "raw_scalar_fields": 47,
+    "task_id": "41"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 385,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 983,
+    "raw_scalar_fields": 26,
+    "task_id": "44"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 439,
+    "projection_raw_scalar_fields": 8,
+    "raw_bytes": 1805,
+    "raw_scalar_fields": 61,
+    "task_id": "48"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 382,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 1040,
+    "raw_scalar_fields": 28,
+    "task_id": "52"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 440,
+    "projection_raw_scalar_fields": 8,
+    "raw_bytes": 1777,
+    "raw_scalar_fields": 62,
+    "task_id": "58"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 383,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 981,
+    "raw_scalar_fields": 26,
+    "task_id": "59"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 423,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1503,
+    "raw_scalar_fields": 48,
+    "task_id": "63"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 419,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1483,
+    "raw_scalar_fields": 48,
+    "task_id": "66"
+  },
+  {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 381,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 1017,
+    "raw_scalar_fields": 28,
+    "task_id": "69"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 406,
+    "projection_raw_scalar_fields": 6,
+    "raw_bytes": 1331,
+    "raw_scalar_fields": 41,
+    "task_id": "72"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 439,
+    "projection_raw_scalar_fields": 8,
+    "raw_bytes": 1764,
+    "raw_scalar_fields": 60,
+    "task_id": "73"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 422,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1560,
+    "raw_scalar_fields": 52,
+    "task_id": "75"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 408,
+    "projection_raw_scalar_fields": 6,
+    "raw_bytes": 1301,
+    "raw_scalar_fields": 40,
+    "task_id": "76"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 382,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 985,
+    "raw_scalar_fields": 26,
+    "task_id": "78"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 401,
+    "projection_raw_scalar_fields": 5,
+    "raw_bytes": 1232,
+    "raw_scalar_fields": 38,
+    "task_id": "80"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 406,
+    "projection_raw_scalar_fields": 6,
+    "raw_bytes": 1288,
+    "raw_scalar_fields": 39,
+    "task_id": "81"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 423,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1553,
+    "raw_scalar_fields": 53,
+    "task_id": "82"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 423,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1553,
+    "raw_scalar_fields": 53,
+    "task_id": "83"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 423,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1553,
+    "raw_scalar_fields": 53,
+    "task_id": "84"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 413,
+    "projection_raw_scalar_fields": 6,
+    "raw_bytes": 1268,
+    "raw_scalar_fields": 40,
+    "task_id": "85"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 413,
+    "projection_raw_scalar_fields": 6,
+    "raw_bytes": 1293,
+    "raw_scalar_fields": 41,
+    "task_id": "87"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 408,
+    "projection_raw_scalar_fields": 6,
+    "raw_bytes": 1301,
+    "raw_scalar_fields": 41,
+    "task_id": "88"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 408,
+    "projection_raw_scalar_fields": 6,
+    "raw_bytes": 1365,
+    "raw_scalar_fields": 44,
+    "task_id": "89"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 422,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1568,
+    "raw_scalar_fields": 52,
+    "task_id": "91"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 422,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1568,
+    "raw_scalar_fields": 52,
+    "task_id": "92"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 423,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1632,
+    "raw_scalar_fields": 56,
+    "task_id": "93"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 436,
+    "projection_raw_scalar_fields": 8,
+    "raw_bytes": 1789,
+    "raw_scalar_fields": 63,
+    "task_id": "95"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 392,
+    "projection_raw_scalar_fields": 5,
+    "raw_bytes": 1163,
+    "raw_scalar_fields": 33,
+    "task_id": "96"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 382,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 1040,
+    "raw_scalar_fields": 28,
+    "task_id": "98"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 382,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 1040,
+    "raw_scalar_fields": 28,
+    "task_id": "99"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 423,
+    "projection_raw_scalar_fields": 7,
+    "raw_bytes": 1556,
+    "raw_scalar_fields": 52,
+    "task_id": "103"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 437,
+    "projection_raw_scalar_fields": 8,
+    "raw_bytes": 1752,
+    "raw_scalar_fields": 61,
+    "task_id": "104"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 437,
+    "projection_raw_scalar_fields": 8,
+    "raw_bytes": 1768,
+    "raw_scalar_fields": 61,
+    "task_id": "106"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 381,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 1026,
+    "raw_scalar_fields": 28,
+    "task_id": "107"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 437,
+    "projection_raw_scalar_fields": 8,
+    "raw_bytes": 1572,
+    "raw_scalar_fields": 54,
+    "task_id": "109"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 384,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 988,
+    "raw_scalar_fields": 26,
+    "task_id": "110"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 408,
+    "projection_raw_scalar_fields": 6,
+    "raw_bytes": 1274,
+    "raw_scalar_fields": 39,
+    "task_id": "112"
+  },
+  {
+    "capsule_bytes": 507,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 382,
+    "projection_raw_scalar_fields": 4,
+    "raw_bytes": 985,
+    "raw_scalar_fields": 26,
+    "task_id": "113"
+  }
+]

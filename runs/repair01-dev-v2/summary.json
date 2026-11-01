@@ -1,0 +1,420 @@
+{
+  "by_edit": {
+    "always_fresh": {
+      "policy_decision_change": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 58
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 14
+      },
+      "policy_weaken_request": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 58
+      },
+      "source_irrelevant_address": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 58
+      },
+      "source_relevant_owner": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "source_relevant_status": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    },
+    "cached_projection": {
+      "policy_decision_change": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 58
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 14
+      },
+      "policy_weaken_request": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 58
+      },
+      "source_irrelevant_address": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 58
+      },
+      "source_relevant_owner": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "source_relevant_status": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    },
+    "compiled_capsule": {
+      "policy_decision_change": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 58
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 14
+      },
+      "policy_weaken_request": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 58
+      },
+      "source_irrelevant_address": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 58
+      },
+      "source_relevant_owner": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "source_relevant_status": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    },
+    "dependency_validity": {
+      "policy_decision_change": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 58
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 14
+      },
+      "policy_weaken_request": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 58
+      },
+      "source_irrelevant_address": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 58
+      },
+      "source_relevant_owner": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "source_relevant_status": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    },
+    "semantic_z3": {
+      "policy_decision_change": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "policy_equivalent": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 58
+      },
+      "policy_new_amount_cap_500": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 14
+      },
+      "policy_weaken_request": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 58
+      },
+      "source_irrelevant_address": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 58
+      },
+      "source_relevant_owner": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "source_relevant_status": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 58,
+        "true_decisions": 0
+      },
+      "unknown_tool_semantics": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      },
+      "unsupported_external_risk": {
+        "correct": 58,
+        "groups": 58,
+        "reads": 0,
+        "true_decisions": 0
+      }
+    }
+  },
+  "compilation": {
+    "policy_decision_change": {
+      "lut_compile_ns": 21333,
+      "solver_setup_ns": 41708
+    },
+    "policy_equivalent": {
+      "lut_compile_ns": 37458,
+      "solver_setup_ns": 1268583
+    },
+    "policy_new_amount_cap_500": {
+      "lut_compile_ns": 21750,
+      "solver_setup_ns": 39000
+    },
+    "policy_weaken_request": {
+      "lut_compile_ns": 22875,
+      "solver_setup_ns": 39334
+    },
+    "source_irrelevant_address": {
+      "lut_compile_ns": 20084,
+      "solver_setup_ns": 27750
+    },
+    "source_relevant_owner": {
+      "lut_compile_ns": 20625,
+      "solver_setup_ns": 27875
+    },
+    "source_relevant_status": {
+      "lut_compile_ns": 20000,
+      "solver_setup_ns": 28625
+    },
+    "unknown_tool_semantics": {
+      "lut_compile_ns": 36125,
+      "solver_setup_ns": 34125
+    },
+    "unsupported_external_risk": {
+      "lut_compile_ns": 20959,
+      "solver_setup_ns": 27958
+    }
+  },
+  "elapsed_seconds": 5.575060844421387,
+  "eligible_task_groups": 58,
+  "exclusions": {
+    "eligible": 58,
+    "native_write_error": 1,
+    "no_order_write": 6,
+    "prefix_tool_error": 9
+  },
+  "family_counts": {
+    "cancel_pending_order": 9,
+    "exchange_delivered_order_items": 17,
+    "modify_pending_order_address": 9,
+    "modify_pending_order_items": 7,
+    "return_delivered_order_items": 16
+  },
+  "files_sha256": {
+    "experiment.py": "bdabd4b5bdd1f1ce0e44b0a800aa484604156efa3aac34814b8aa010cdef4732",
+    "protocol": "a9d84b2961ea02b41b5bf70c22341ff1dc59a89dab486b760acd1ce5a8121ceb",
+    "upstream_db": "413a65160adbdb5fde0ffc0015c49b6d70250b10c18128de169b597af7766765",
+    "upstream_tasks": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+    "upstream_tools": "d0a9afdd44dbb1e7b1b4d19e0acf8ba9e3c99db78f775383a4b63fe5b0ccf52a"
+  },
+  "methods": {
+    "always_fresh": {
+      "correct": 522,
+      "episodes": 522,
+      "false_accepts": 0,
+      "online_median_us": 1.208,
+      "online_total_seconds": 0.000622979,
+      "review": 116,
+      "supported": 406,
+      "supported_correct": 406,
+      "verification_reads": 406
+    },
+    "cached_projection": {
+      "correct": 522,
+      "episodes": 522,
+      "false_accepts": 0,
+      "online_median_us": 0.542,
+      "online_total_seconds": 0.000374869,
+      "review": 116,
+      "supported": 406,
+      "supported_correct": 406,
+      "verification_reads": 116
+    },
+    "compiled_capsule": {
+      "correct": 522,
+      "episodes": 522,
+      "false_accepts": 0,
+      "online_median_us": 8.792,
+      "online_total_seconds": 0.00384062,
+      "review": 116,
+      "supported": 406,
+      "supported_correct": 406,
+      "verification_reads": 174
+    },
+    "dependency_validity": {
+      "correct": 522,
+      "episodes": 522,
+      "false_accepts": 0,
+      "online_median_us": 1.0,
+      "online_total_seconds": 0.00067012,
+      "review": 116,
+      "supported": 406,
+      "supported_correct": 406,
+      "verification_reads": 174
+    },
+    "semantic_z3": {
+      "correct": 522,
+      "episodes": 522,
+      "false_accepts": 0,
+      "online_median_us": 73.0205,
+      "online_total_seconds": 0.037851505,
+      "review": 116,
+      "supported": 406,
+      "supported_correct": 406,
+      "verification_reads": 174
+    }
+  },
+  "native_postcondition_pass": 58,
+  "native_write_success": 58,
+  "observed_auth_witness_groups": 29,
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "post_authenticated_session_assumption": true,
+  "protocol_id": "repair01-capsule-v2",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "retention_means": {
+    "capsule_bytes": 505,
+    "capsule_predicate_bits": 4,
+    "capsule_raw_scalar_fields": 0,
+    "projection_bytes": 412,
+    "projection_raw_scalar_fields": 6.172413793103448,
+    "raw_bytes": 1386.0689655172414,
+    "raw_scalar_fields": 44.12068965517241
+  },
+  "source_task_groups": 74,
+  "split": "train",
+  "z3": "5.3.3"
+}

@@ -1,6 +1,7 @@
+Current artifact manuscript: VerifierShift Restricted Evidence for Changed Agent Workflows
+Author: Saurav K. Aryal, Howard University
 Subject: Computer Science and Mathematics
 Topic within Subject: Artificial Intelligence and Machine Learning
-Optional MDPI Topic: AI Agents: Progress, Architecture, and Applications
-Topic URL: https://www.mdpi.com/topics/64gpx50134
-Scope fit: Agent architectures, tool use, safety and evaluation. Classification is a proposed editorial fit, not editor approval.
-Recommended metadata; no submission has been made.
+Keywords: agent verification; evidence minimization; policy drift; typed evidence; selective refresh
+
+The November 1 restricted-evidence manuscript extends the repository with a public-tool replay. The author previously submitted the earlier authoritative-evidence VerifierShift manuscript; its submission-era package is preserved under legacy/authoritative_evidence_20261031/. This repository update does not create or revise a Preprints.org submission.

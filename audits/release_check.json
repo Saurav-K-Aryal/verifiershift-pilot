@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-01",
+  "version": "0.2.0",
+  "saved_result_verifier": "passed;1,395 decisions and frozen hash checks",
+  "full_native_replay": "passed;31 native writes,1,395 method decisions,279 pairs,exactdecisions/reads/notices/knownfacts and retention",
+  "raw_fixture_oracle": "all_correct;1,395 episodes",
+  "legacy_verifier": "passed;48 logical SQL worlds and168 saved native model requests",
+  "output_preservation": "existing frozen confirmation path rejected before any writes",
+  "shell_syntax": "passed",
+  "manuscript_compile": "passed;pdfLaTeX+BibTeX via latexmk",
+  "pdf_visual_review": "passed all five pages",
+  "frozen_source_hashes_preserved": true,
+  "overleaf_assets_checked": [
+    "draft.tex",
+    "main.tex",
+    "refs.bib",
+    "references.bib",
+    "README.txt",
+    "figures/retained_bytes.png",
+    "figures/verification_reads.png"
+  ],
+  "timings_excluded_from_reproduction_equality": true,
+  "clean_overleaf_compile": "passed from fresh ZIP extraction; all five page texts match current PDF"
+}
